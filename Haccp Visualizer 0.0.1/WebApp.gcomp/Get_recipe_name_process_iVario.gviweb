@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A8B9898C1A12B6B55419CF383A0A4A539995586E1F848782BEE6F5BBB7F4B1330118ABB084360B03202501089892EB13F2D050DA53CBBBE161334AB9B8B7DBD6" Timestamp="1DBB77DCE6C0C7A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="461a14f78a5943d583d8c82180f38080" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="c05841c1ff894cf59dd03042930be634" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="38b9f2eae95744a09e68e6ee8dd7ea10" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="9ad8d521d5ca43b7aa1a9ae6b30b10a3" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="c741491d70604de5b751ee702a89676f" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#fff8941c" Id="2213b821a0c7444d9620a9081e634925" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="32438c06f23048eebaad7776e2d18c65" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Get_recipe_name_process_iVario" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="4dee9d04e95946c58b13c9eb6d51ae35" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="3482573b621a41c194e0226f1a5cef57" ListViewHeight="130" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="e7ee64e9b1404b22ab4f8ab4d006b7d1" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="505e93a72c0c4db598d42046df731cf2" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 65" Parameter="db931112f94a44b0acdad139c0d5896d" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 80" Parameter="32b8fd8202774d3dbf98c6f3f1fb8dcd" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="340ea798ffb34aa68bcad9ed4566c81d" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 110" Parameter="4fa49eea9bcb47e989b55b84dff0decb" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="9273c03373d746c0bf3c954147fb17d5" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="5a929004dc5b46238ec00ba51e4fa6bd" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="5fc338f40fd546e2b8d19422281b9021">
+			<DataAccessor Bounds="120 215 40 15" DataItem="e7ee64e9b1404b22ab4f8ab4d006b7d1" Id="61503b6817b4891a70488dbedb3cdb4" Label="d050a789c851426b98afd420a1c6fbd7" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="770 185 40 15" DataItem="32b8fd8202774d3dbf98c6f3f1fb8dcd" Id="5c4b46e0b9454ec7ba8d534937f5292b" Label="cc6d976df682427a85f4351deced0a55" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="790 235 40 15" DataItem="4fa49eea9bcb47e989b55b84dff0decb" Id="51b285290b194c99ac5ce10b15b74bad" Label="bf40d41b37384063b653f2556374824a" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="120 260 40 15" DataItem="db931112f94a44b0acdad139c0d5896d" Id="74561882f6e4556af2aec439d276c6d" Label="3a20982e2092489ab6012e4ac5fc1771" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="125 240 40 15" DataItem="505e93a72c0c4db598d42046df731cf2" Id="47bb8558537f417089b9ff21c584ba71" Label="9eaa0aab14924748bc35fb2a5035327f" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="790 255 40 15" DataItem="340ea798ffb34aa68bcad9ed4566c81d" Id="94eca4d272ec46c898785ee754d6b502" Label="8848d6e38af54857a172e4dfd91eb457" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="61503b6817b4891a70488dbedb3cdb4" Bounds="42 215 73 14" Id="d050a789c851426b98afd420a1c6fbd7" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Programm Id</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="5c4b46e0b9454ec7ba8d534937f5292b" Bounds="815 185 77 14" Id="cc6d976df682427a85f4351deced0a55" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Process name</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="51b285290b194c99ac5ce10b15b74bad" Bounds="835 235 39 14" Id="bf40d41b37384063b653f2556374824a" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Output</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="74561882f6e4556af2aec439d276c6d" Bounds="85 260 30 14" Id="3a20982e2092489ab6012e4ac5fc1771" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Input</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="47bb8558537f417089b9ff21c584ba71" Bounds="90 240 30 14" Id="9eaa0aab14924748bc35fb2a5035327f" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>GUID</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="94eca4d272ec46c898785ee754d6b502" Bounds="835 255 99 14" Id="8848d6e38af54857a172e4dfd91eb457" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Programme name</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="195 220 545 110" DataType="String" Default="9f72a3ad520a43b3ad614d9a3ddf4671" Id="f405f0f05e6549bcaa4f1283fc796fab" Selected="6f202721c5af4c90ab89893b88295654" UserSelectorBounds="102 0 341 17">
+				<CaseStructure.Case Bounds="5 5 535 100" Id="9f72a3ad520a43b3ad614d9a3ddf4671" Pattern="&quot;False&quot;, Default">
+					<Literal Bounds="440 30 70 15" DataType="String" Id="e16d1dc6a97e41dba6304c515a43b090" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Unknown</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="d2ac3f580fa7444ebb4bfb74ee74f8da" Joints="N(e16d1dc6a97e41dba6304c515a43b090:Out)|(510,35) N(736acb746584411bb7f309340d574610:9f72a3ad520a43b3ad614d9a3ddf4671)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="2f96411eba948468efe18aa5a1bcd57" Joints="N(61ed5007f48543589edfc373f5f18327:9f72a3ad520a43b3ad614d9a3ddf4671)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:9f72a3ad520a43b3ad614d9a3ddf4671)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="6f9174b53e6243e698c2f7146fd00f98" Pattern="&quot;{F1EC9F5D-A5BF-4B87-9643-AE4C475E86CC}&quot;">
+					<Wire Id="acb7719e00d443b7aade8ce61d1e9725" Joints="N(61ed5007f48543589edfc373f5f18327:6f9174b53e6243e698c2f7146fd00f98)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:6f9174b53e6243e698c2f7146fd00f98)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="460 30 50 15" DataType="String" Id="707ac9f89be64cf7bdfa7043a31e6e97" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Roast</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="ab19fdf0e63f4072aa09e9aa36c9c19f" Joints="N(707ac9f89be64cf7bdfa7043a31e6e97:Out)|(510,35) N(736acb746584411bb7f309340d574610:6f9174b53e6243e698c2f7146fd00f98)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="50c663a36642418ab9c0347f090cc35e" Pattern="&quot;{5B1CB67A-C312-4AE7-A8CC-0AC096F56AAA}&quot;">
+					<Wire Id="6d9a615a17234a6a96a7036ec91bb03e" Joints="N(61ed5007f48543589edfc373f5f18327:50c663a36642418ab9c0347f090cc35e)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:50c663a36642418ab9c0347f090cc35e)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="450 30 55 15" DataType="String" Id="81e218779be443bfa6ba0e9a224f68d2" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Frying "</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a88a88df58744ba896ec0ce75b425241" Joints="N(81e218779be443bfa6ba0e9a224f68d2:Out)|(505,35) N(736acb746584411bb7f309340d574610:50c663a36642418ab9c0347f090cc35e)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="7ba6486a56d64f019200d2b97a47611a" Pattern="&quot;{14154E87-4DC5-46BE-A48B-369C218CD08A}&quot;">
+					<Wire Id="83c3010e0ff64874bf9ec9eb7a931f62" Joints="N(61ed5007f48543589edfc373f5f18327:7ba6486a56d64f019200d2b97a47611a)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:7ba6486a56d64f019200d2b97a47611a)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="335 30 85 15" DataType="String" Id="8b0104553c114d7b8207a6396841c7bf" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Braise meat</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5e4168c738634b5a9526acea89184811" Joints="N(8b0104553c114d7b8207a6396841c7bf:Out)|(420,35) N(736acb746584411bb7f309340d574610:7ba6486a56d64f019200d2b97a47611a)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="cf12e348886e42ca83e3194a6f028ff3" Pattern="&quot;{97A9653C-6FDC-4EC1-BA76-70CD3EEB0FEA}&quot;">
+					<Wire Id="1f6e43deb713455884022d58ddf7f73f" Joints="N(61ed5007f48543589edfc373f5f18327:cf12e348886e42ca83e3194a6f028ff3)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:cf12e348886e42ca83e3194a6f028ff3)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="305 30 115 15" DataType="String" Id="68b6cbdb6db9464d8e12e2495c673867" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Deep frying meat</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="8553468a815e46b0a68ef8889bcde127" Joints="N(68b6cbdb6db9464d8e12e2495c673867:Out)|(420,35) N(736acb746584411bb7f309340d574610:cf12e348886e42ca83e3194a6f028ff3)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="1ea4807a6624c7ead697591295d5056" Pattern="&quot;{B51413B7-9B8D-4637-80BF-8E104B9D37FA}&quot;">
+					<Wire Id="af4054336dad4fa888fb4a89d871de33" Joints="N(61ed5007f48543589edfc373f5f18327:1ea4807a6624c7ead697591295d5056)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:1ea4807a6624c7ead697591295d5056)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="335 30 80 15" DataType="String" Id="354c717ea0bb44ff834d0c4476ecb7de" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Roast meat</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="d8d3d3692a9d4dce811c8a6488fc07f8" Joints="N(354c717ea0bb44ff834d0c4476ecb7de:Out)|(415,35) N(736acb746584411bb7f309340d574610:1ea4807a6624c7ead697591295d5056)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e6824f688a644667bfdead4833dae2fb" Pattern="&quot;{57B64B24-ABBC-474A-B337-4B1DD1C541B7}&quot;">
+					<Wire Id="8038cda67ff948d28c82663558c71a60" Joints="N(61ed5007f48543589edfc373f5f18327:e6824f688a644667bfdead4833dae2fb)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e6824f688a644667bfdead4833dae2fb)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="235 30 180 15" DataType="String" Id="e80eae3fb9084213bff29f8d5a8a4560" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes Cooking potatoes</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="cad50c8e660c44cb9d03d99d4398ca66" Joints="N(e80eae3fb9084213bff29f8d5a8a4560:Out)|(415,35) N(736acb746584411bb7f309340d574610:e6824f688a644667bfdead4833dae2fb)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="6f202721c5af4c90ab89893b88295654" Pattern="&quot;{F522428E-4454-42D5-AC1B-C7618CC43EB9}&quot;">
+					<Wire Id="f1b954d2d1ef4d719b24aa820f7f27f5" Joints="N(61ed5007f48543589edfc373f5f18327:6f202721c5af4c90ab89893b88295654)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:6f202721c5af4c90ab89893b88295654)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="345 30 75 15" DataType="String" Id="b9699f56cbd94803bddcafd20cfffbbd" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fried eggs</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a41f7c4edfa147119c3f0aa53e453474" Joints="N(b9699f56cbd94803bddcafd20cfffbbd:Out)|(420,35) N(736acb746584411bb7f309340d574610:6f202721c5af4c90ab89893b88295654)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="4876bf5226584619879f0036e2954591" Pattern="&quot;{014E63A6-91B4-4932-9D64-9068A5E3899B}&quot;">
+					<Wire Id="5203888a3c554ee8a732f35b74ec4c94" Joints="N(61ed5007f48543589edfc373f5f18327:4876bf5226584619879f0036e2954591)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:4876bf5226584619879f0036e2954591)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="325 30 90 15" DataType="String" Id="48be2d4266d44fe59437941d097082a4" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg omelette</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="6df248eca5a24a94a304fa67a7abd9f0" Joints="N(48be2d4266d44fe59437941d097082a4:Out)|(415,35) N(736acb746584411bb7f309340d574610:4876bf5226584619879f0036e2954591)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="1598910c6e7c4e74895fdd80675ac3b1" Pattern="&quot;{A529A8EC-F6DB-452F-A216-BE9DCC4C0501}&quot;">
+					<Wire Id="bc4c46aad29646edace0db061ceb4521" Joints="N(61ed5007f48543589edfc373f5f18327:1598910c6e7c4e74895fdd80675ac3b1)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:1598910c6e7c4e74895fdd80675ac3b1)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="325 30 90 15" DataType="String" Id="512ef7378f124e6aa26be47598e3825a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat cooking</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="1fca915a93894c3ca09a1982681ccb95" Joints="N(512ef7378f124e6aa26be47598e3825a:Out)|(415,35) N(736acb746584411bb7f309340d574610:1598910c6e7c4e74895fdd80675ac3b1)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="3564ef6fe839496188dd72d7c0b0c103" Pattern="&quot;{7E754ABE-8CB2-4247-A03C-771CE4AD4177}&quot;">
+					<Wire Id="530574003ad245b7a2729420a0aa6750" Joints="N(61ed5007f48543589edfc373f5f18327:3564ef6fe839496188dd72d7c0b0c103)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:3564ef6fe839496188dd72d7c0b0c103)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="295 30 126 15" DataType="String" Id="4b85a4e639924eb99799ee5802f2966d" xmlns="http://www.ni.com/MocCommon">
+						<p.Data> Fisch Dämpfen</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="3ee415ed10bf42b58f4b0c1dac2a6ab4" Joints="N(4b85a4e639924eb99799ee5802f2966d:Out)|(421,35) N(736acb746584411bb7f309340d574610:3564ef6fe839496188dd72d7c0b0c103)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e143d3ee905848e39551ee97309ebc84" Pattern="&quot;{6C58E961-881D-4BC0-B912-44AA64F8AF47}&quot;">
+					<Wire Id="e2f9c72dccd4434fa70fde3cdc05eb76" Joints="N(61ed5007f48543589edfc373f5f18327:e143d3ee905848e39551ee97309ebc84)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e143d3ee905848e39551ee97309ebc84)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="295 30 126 15" DataType="String" Id="efa24396c2d440d09beb597f6b801a99" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Sous vide meat</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="8443c0cc99cc4558b57493f4e12c14d6" Joints="N(efa24396c2d440d09beb597f6b801a99:Out)|(421,35) N(736acb746584411bb7f309340d574610:e143d3ee905848e39551ee97309ebc84)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="c7f249ffbc3146d78fd314aa9efdefd6" Pattern="&quot;{1E8A5BED-9EDA-4629-90C3-3BE63CB36E87}&quot;">
+					<Wire Id="bc6ae70dbd1c4d6dbe8bd0f4a26f674b" Joints="N(61ed5007f48543589edfc373f5f18327:c7f249ffbc3146d78fd314aa9efdefd6)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:c7f249ffbc3146d78fd314aa9efdefd6)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="295 30 126 15" DataType="String" Id="429698483755453f8a7c9a82ac85d8b4" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat confit</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5a1472fcce564e5e9ac5a3467fe33aae" Joints="N(429698483755453f8a7c9a82ac85d8b4:Out)|(421,35) N(736acb746584411bb7f309340d574610:c7f249ffbc3146d78fd314aa9efdefd6)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="10b9f5c987434ce19f4003fdf2d30e07" Pattern="&quot;{2946233B-DF20-488C-BF5D-530094B87D8A}&quot;">
+					<Wire Id="13039e00a4784366aef65e0c646ecf58" Joints="N(61ed5007f48543589edfc373f5f18327:10b9f5c987434ce19f4003fdf2d30e07)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:10b9f5c987434ce19f4003fdf2d30e07)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="225 30 191 15" DataType="String" Id="3d212535378b4749a548bcced47d0952" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat Sausages Broths</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="2b57bb8ff6b44c7a7180859a57df8f0" Joints="N(3d212535378b4749a548bcced47d0952:Out)|(416,35) N(736acb746584411bb7f309340d574610:10b9f5c987434ce19f4003fdf2d30e07)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="3475b4996b174cf09701b033dfeb4eae" Pattern="&quot;{52FC21C6-F65C-42AE-A157-7656AC49777C}&quot;">
+					<Wire Id="652bae7f2312480d975bf2a09e67ea22" Joints="N(61ed5007f48543589edfc373f5f18327:3475b4996b174cf09701b033dfeb4eae)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:3475b4996b174cf09701b033dfeb4eae)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="225 30 191 15" DataType="String" Id="b278ec6a91da42729243a1c5c279ae4f" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat ragout</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a67a4b8e9bc248b1889aea1b73b43eca" Joints="N(b278ec6a91da42729243a1c5c279ae4f:Out)|(416,35) N(736acb746584411bb7f309340d574610:3475b4996b174cf09701b033dfeb4eae)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="4b768a17e9a34e8b86d8a41c4ea9daae" Pattern="&quot;{37CDD65D-B81B-4605-B93F-31FE9D24E38C}&quot;">
+					<Wire Id="e605c9df47f04fe2af8b3da3678647f7" Joints="N(61ed5007f48543589edfc373f5f18327:4b768a17e9a34e8b86d8a41c4ea9daae)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:4b768a17e9a34e8b86d8a41c4ea9daae)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="225 30 191 15" DataType="String" Id="89d0d26b3bb9451299d697897b6f3c18" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Cooking meat overnight</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="4e12464f6ff649b28257b6e89cd87f42" Joints="N(89d0d26b3bb9451299d697897b6f3c18:Out)|(416,35) N(736acb746584411bb7f309340d574610:4b768a17e9a34e8b86d8a41c4ea9daae)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="982a7fb6f3c5485fb89880f8cb6b6723" Pattern="&quot;{FC19B71C-36FA-4C91-A5B4-502BC8F5F499}&quot;">
+					<Wire Id="53ca9ccd06324e86b32f241fd18546f8" Joints="N(61ed5007f48543589edfc373f5f18327:982a7fb6f3c5485fb89880f8cb6b6723)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:982a7fb6f3c5485fb89880f8cb6b6723)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="225 30 191 15" DataType="String" Id="86dbe11a99464a6aa35c252402c75fd4" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Milk and desserts Milk cooking</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="88384e72a04f44e6affc5f2860190c77" Joints="N(86dbe11a99464a6aa35c252402c75fd4:Out)|(416,35) N(736acb746584411bb7f309340d574610:982a7fb6f3c5485fb89880f8cb6b6723)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="a723b2090b4d48548abae12d67415a79" Pattern="&quot;{FDEBAA55-C323-4B60-83BC-80848B186CC8}&quot;">
+					<Wire Id="4a2800cd756a485ea6ea2a47a6677dce" Joints="N(61ed5007f48543589edfc373f5f18327:a723b2090b4d48548abae12d67415a79)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:a723b2090b4d48548abae12d67415a79)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="385e23ecd56a4f25b411b9c9ec976e65" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Milk and desserts Pudding \n+ sauce"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="ab1f47c9fa22459dbd9d7d0d81b92ef3" Joints="N(385e23ecd56a4f25b411b9c9ec976e65:Out)|(421,35) N(736acb746584411bb7f309340d574610:a723b2090b4d48548abae12d67415a79)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="5ca294b224ee49f48cd1c21fe4c2d60b" Pattern="&quot;{8A51293C-76B5-4CA4-B1A1-805B98732F7B}&quot;">
+					<Wire Id="820310e63322410f910b1fd183699eda" Joints="N(61ed5007f48543589edfc373f5f18327:5ca294b224ee49f48cd1c21fe4c2d60b)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:5ca294b224ee49f48cd1c21fe4c2d60b)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="6c34d28aaa554ba5ab536e4112afcb64" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes Kaiserschmarren</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="1b8bb9f21f234ac2b3c16e4bd4527bdd" Joints="N(6c34d28aaa554ba5ab536e4112afcb64:Out)|(421,35) N(736acb746584411bb7f309340d574610:5ca294b224ee49f48cd1c21fe4c2d60b)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="3844a749baa34c5aaf5a1339d1829411" Pattern="&quot;{222F2283-49FF-494B-8066-CA4A3BBE0CA8}&quot;">
+					<Wire Id="8297176be00c4656ad17b0c869323619" Joints="N(61ed5007f48543589edfc373f5f18327:3844a749baa34c5aaf5a1339d1829411)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:3844a749baa34c5aaf5a1339d1829411)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="d90282561764dbaa891e1be9e661e13" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Suppen Saucen Convenience</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="ad0c919c39734205ad9c30ab54de05e8" Joints="N(d90282561764dbaa891e1be9e661e13:Out)|(421,35) N(736acb746584411bb7f309340d574610:3844a749baa34c5aaf5a1339d1829411)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e631b7b11cb040c9a76a36b9a9bc2c09" Pattern="&quot;{95806C6D-0802-45A1-8A0A-0582DB380211}&quot;">
+					<Wire Id="878727e091dd4914a9192faa2e09be4e" Joints="N(61ed5007f48543589edfc373f5f18327:e631b7b11cb040c9a76a36b9a9bc2c09)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e631b7b11cb040c9a76a36b9a9bc2c09)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="4a692ebd17aa46bdaf0d887b2df27e64" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Finishing soups sauces</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="3ca36bd37544499cae0ecf0d43efcda7" Joints="N(4a692ebd17aa46bdaf0d887b2df27e64:Out)|(421,35) N(736acb746584411bb7f309340d574610:e631b7b11cb040c9a76a36b9a9bc2c09)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="17c19309c3d4498381595af421958e3d" Pattern="&quot;{A651D927-4794-4AC4-BD92-E9BB027911BF}&quot;">
+					<Wire Id="bbc0dc32458b433a8f62b1493f34b028" Joints="N(61ed5007f48543589edfc373f5f18327:17c19309c3d4498381595af421958e3d)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:17c19309c3d4498381595af421958e3d)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="a922c155474f466b9e593bdd494a77cf" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soups Sauces Bechamel Veloute</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="4fd6b84fea17480b99ec1375e10bcafd" Joints="N(a922c155474f466b9e593bdd494a77cf:Out)|(421,35) N(736acb746584411bb7f309340d574610:17c19309c3d4498381595af421958e3d)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="7ecc96df03c84130a15c21ef5370ca73" Pattern="&quot;{597A1F24-6518-4266-8571-1D3649E63D87}&quot;">
+					<Wire Id="79f77c01f2d845619249baa34db0bf37" Joints="N(61ed5007f48543589edfc373f5f18327:7ecc96df03c84130a15c21ef5370ca73)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:7ecc96df03c84130a15c21ef5370ca73)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="cdd3f4532f1c49d381ac3494f7ee83c0" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Sides Polenta</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="55ef5e306fda4363b54d5d66b2076e46" Joints="N(cdd3f4532f1c49d381ac3494f7ee83c0:Out)|(421,35) N(736acb746584411bb7f309340d574610:7ecc96df03c84130a15c21ef5370ca73)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="3317d1fa9fca46b0bcda8a0f18f8f6ac" Pattern="&quot;{38BB32AC-4562-43A2-9674-977D416C477E}&quot;">
+					<Wire Id="817a53d4d4b24705b010b9e13d06f676" Joints="N(61ed5007f48543589edfc373f5f18327:3317d1fa9fca46b0bcda8a0f18f8f6ac)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:3317d1fa9fca46b0bcda8a0f18f8f6ac)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="8abfecb081174287a96edfb8eb4dcd81" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Manual cooking</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="3071b03ad4d241589c2fe654b3319131" Joints="N(8abfecb081174287a96edfb8eb4dcd81:Out)|(421,35) N(736acb746584411bb7f309340d574610:3317d1fa9fca46b0bcda8a0f18f8f6ac)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="af15bfb32c3843b683ef5902694beb85" Pattern="&quot;{10D33001-F6E1-4EA1-BA89-37F87158712C}&quot;">
+					<Wire Id="b379fa776af449048f2f8a21f9d7623a" Joints="N(61ed5007f48543589edfc373f5f18327:af15bfb32c3843b683ef5902694beb85)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:af15bfb32c3843b683ef5902694beb85)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="41ce1efbb7be43fcbbca6518ac1ce17b" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Manual cooking</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5d103f309871408b93c3c4161261409a" Joints="N(41ce1efbb7be43fcbbca6518ac1ce17b:Out)|(421,35) N(736acb746584411bb7f309340d574610:af15bfb32c3843b683ef5902694beb85)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="2d615d23f01d455d875c64ecbd430de4" Pattern="&quot;{5EC7E7CC-DBBD-40CE-AC81-D89745BD47D3}&quot;">
+					<Wire Id="9722c8ba3aad40f29cc451f69d977b10" Joints="N(61ed5007f48543589edfc373f5f18327:2d615d23f01d455d875c64ecbd430de4)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:2d615d23f01d455d875c64ecbd430de4)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="8a25fa9aee42449491f1fa681d81503c" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dish cooking</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a506c4ba263e4f029bc9423664cc1e5d" Joints="N(8a25fa9aee42449491f1fa681d81503c:Out)|(421,35) N(736acb746584411bb7f309340d574610:2d615d23f01d455d875c64ecbd430de4)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="533dbc46397740788968e9881bd0b7e1" Pattern="&quot;{10E82303-A36B-4E79-8727-5FD1574C5581}&quot;">
+					<Wire Id="fb88ca5aa01643ada568a26bd96e3b40" Joints="N(61ed5007f48543589edfc373f5f18327:533dbc46397740788968e9881bd0b7e1)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:533dbc46397740788968e9881bd0b7e1)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="74093e443e6b4a79b9063414829053f9" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Milk and desserts Rice pudding</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="75c1e4b3c5364d4bb60a2d74ed91d108" Joints="N(74093e443e6b4a79b9063414829053f9:Out)|(421,35) N(736acb746584411bb7f309340d574610:533dbc46397740788968e9881bd0b7e1)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="9635d71fb6ab4050bdc8c8448cb8f60f" Pattern="&quot;{5485695E-4E6C-487E-BF3C-1281D2BA0C01}&quot;">
+					<Wire Id="4c3767431c0c41b4aba807403e12ebcf" Joints="N(61ed5007f48543589edfc373f5f18327:9635d71fb6ab4050bdc8c8448cb8f60f)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:9635d71fb6ab4050bdc8c8448cb8f60f)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="832b4f2c97274c08a82fe43a960fba85" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Poaching fish</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a3cfa3fb94554511b9591f18b855684a" Joints="N(832b4f2c97274c08a82fe43a960fba85:Out)|(421,35) N(736acb746584411bb7f309340d574610:9635d71fb6ab4050bdc8c8448cb8f60f)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="3717e0c2de064e5ba9f131b8d35e29ce" Pattern="&quot;{67A0CA04-D69E-4808-8B08-A194398AD7B5}&quot;">
+					<Wire Id="2f1254397a0944248a5e091a9ab59e09" Joints="N(61ed5007f48543589edfc373f5f18327:3717e0c2de064e5ba9f131b8d35e29ce)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:3717e0c2de064e5ba9f131b8d35e29ce)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="1c50c90e8c6e4558b9a69d4755b8c37c" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Steaming meat</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="6f84ae04ac3e4f39b541e28962b2199b" Joints="N(1c50c90e8c6e4558b9a69d4755b8c37c:Out)|(421,35) N(736acb746584411bb7f309340d574610:3717e0c2de064e5ba9f131b8d35e29ce)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="f893a750e6a34e83becaa07c599cad13" Pattern="&quot;{2E2A0F8E-5B00-4664-BCBF-2BDAECE5F57C}&quot;">
+					<Wire Id="9f59c7627f3b4a8bb7d72c2525484552" Joints="N(61ed5007f48543589edfc373f5f18327:f893a750e6a34e83becaa07c599cad13)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:f893a750e6a34e83becaa07c599cad13)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="a695460bf93428ab70db9c39d09820d" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Steam side dishes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="99977e7534dd422eb2abe756c1772d9f" Joints="N(a695460bf93428ab70db9c39d09820d:Out)|(421,35) N(736acb746584411bb7f309340d574610:f893a750e6a34e83becaa07c599cad13)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="5a6e90b3600345baa61e6881fefe112e" Pattern="&quot;{B5ACA17F-6B44-464C-B39D-0C05E5762E3A}&quot;">
+					<Wire Id="6147e2448b774b74b351502ae18ad7fd" Joints="N(61ed5007f48543589edfc373f5f18327:5a6e90b3600345baa61e6881fefe112e)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:5a6e90b3600345baa61e6881fefe112e)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="81f379fab9594d84a7b44aa398fead10" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fish confit</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="66de314d7ea14efead297287563d5030" Joints="N(81f379fab9594d84a7b44aa398fead10:Out)|(421,35) N(736acb746584411bb7f309340d574610:5a6e90b3600345baa61e6881fefe112e)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="151bddcc801645049ad8cfdfd62d2130" Pattern="&quot;{DB8A4BB2-1225-4860-87BD-4984E36C9932}&quot;">
+					<Wire Id="c5a6bf3344bd46d99e2ac8f9e601754b" Joints="N(61ed5007f48543589edfc373f5f18327:151bddcc801645049ad8cfdfd62d2130)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:151bddcc801645049ad8cfdfd62d2130)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="ab9117e3c2ea4279a7716eba9959fd17" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Steaming milk and desserts</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="10fea69b82644bd7b7e6d5e833e49bec" Joints="N(ab9117e3c2ea4279a7716eba9959fd17:Out)|(421,35) N(736acb746584411bb7f309340d574610:151bddcc801645049ad8cfdfd62d2130)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e9ed10313a1a4538b7b8e56eb6c4dc8f" Pattern="&quot;{547EC271-8C58-4708-927B-281C8BC5A576}&quot;">
+					<Wire Id="dcaf7edc56bc4c12adcf3b7f470c6614" Joints="N(61ed5007f48543589edfc373f5f18327:e9ed10313a1a4538b7b8e56eb6c4dc8f)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e9ed10313a1a4538b7b8e56eb6c4dc8f)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="f5be5e7fbcd2467da778a9a5bfba3588" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Deep-frying fish</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="13e56e91103f49b39bcf1010ab66e28e" Joints="N(f5be5e7fbcd2467da778a9a5bfba3588:Out)|(421,35) N(736acb746584411bb7f309340d574610:e9ed10313a1a4538b7b8e56eb6c4dc8f)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="1f36652df4684ffc84cf9992408617fa" Pattern="&quot;{122129B2-3F4E-41D8-BB33-9BBDC5B13EF7}&quot;">
+					<Wire Id="2414dd6fec8346f78b6e5cce97690fb1" Joints="N(61ed5007f48543589edfc373f5f18327:1f36652df4684ffc84cf9992408617fa)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:1f36652df4684ffc84cf9992408617fa)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="9844b3599b5146649ce5a7793ad36ba1" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Sous vide fish</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a71aa6b0946c414680c1c22ed4ca223e" Joints="N(9844b3599b5146649ce5a7793ad36ba1:Out)|(421,35) N(736acb746584411bb7f309340d574610:1f36652df4684ffc84cf9992408617fa)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="2f86c40858014978856844a52ec9bf3e" Pattern="&quot;{4BE1166B-089C-4E4B-8D2C-B987731C0613}&quot;">
+					<Wire Id="aa1abc1be5454e998d529348fda21fb3" Joints="N(61ed5007f48543589edfc373f5f18327:2f86c40858014978856844a52ec9bf3e)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:2f86c40858014978856844a52ec9bf3e)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="eba2d78040ba40bc866cbf83efadee3c" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fish Seafood Cooking</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="742172323ed24ffb9e121b4c85626475" Joints="N(eba2d78040ba40bc866cbf83efadee3c:Out)|(421,35) N(736acb746584411bb7f309340d574610:2f86c40858014978856844a52ec9bf3e)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="969fad3b803a4bcc836f815282bbb6cf" Pattern="&quot;{A8E9604C-E19A-4FEC-88C6-C48D25EC8D37}&quot;">
+					<Wire Id="6be2c468fce94b5f97bde594ed67e6dd" Joints="N(61ed5007f48543589edfc373f5f18327:969fad3b803a4bcc836f815282bbb6cf)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:969fad3b803a4bcc836f815282bbb6cf)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="7adfdbf4d78645d1bcc69ba7d89a271a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes Poaching eggs</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5133a0858d784244a024146cdb721cfc" Joints="N(7adfdbf4d78645d1bcc69ba7d89a271a:Out)|(421,35) N(736acb746584411bb7f309340d574610:969fad3b803a4bcc836f815282bbb6cf)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="f4d9d610f50e495a955b3ade860fa8e3" Pattern="&quot;{6509EAAB-9A69-45A6-95CB-6011F01160F8}&quot;">
+					<Wire Id="2b1497cd1584446b8e6c41242399b332" Joints="N(61ed5007f48543589edfc373f5f18327:f4d9d610f50e495a955b3ade860fa8e3)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:f4d9d610f50e495a955b3ade860fa8e3)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="86e514d69adb48c58edae62031a11769" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes rice cooking</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5e3816cae50c4aaca8ac1951e9734769" Joints="N(86e514d69adb48c58edae62031a11769:Out)|(421,35) N(736acb746584411bb7f309340d574610:f4d9d610f50e495a955b3ade860fa8e3)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="b5aa8caf2b614c279b3ec487bf23e2c1" Pattern="&quot;{53CEBCBE-F670-474B-B751-A9F9637B2A5F}&quot;">
+					<Wire Id="d7943b3e34f1443d80af916e0b82fdd2" Joints="N(61ed5007f48543589edfc373f5f18327:b5aa8caf2b614c279b3ec487bf23e2c1)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:b5aa8caf2b614c279b3ec487bf23e2c1)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="dbe809e3743c4e38b202511c07acdd3a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>JP Tamagoyaki egg dishes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="f71f4e31a3f042cd9846cad45e9c4570" Joints="N(dbe809e3743c4e38b202511c07acdd3a:Out)|(421,35) N(736acb746584411bb7f309340d574610:b5aa8caf2b614c279b3ec487bf23e2c1)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="9eed92298a4b4d57bf32fc346700eac5" Pattern="&quot;{DB0F7019-5A7D-45D0-B9B4-C0C46D148E50}&quot;">
+					<Wire Id="35624b9144b74149b7c05e6a4d8a7659" Joints="N(61ed5007f48543589edfc373f5f18327:9eed92298a4b4d57bf32fc346700eac5)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:9eed92298a4b4d57bf32fc346700eac5)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="6aa0ea0442714467b530db8bb6227c32" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>JP Gyoza side dishes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="1ffc7e5ed5c244ccbec9da8d71cb14b9" Joints="N(6aa0ea0442714467b530db8bb6227c32:Out)|(421,35) N(736acb746584411bb7f309340d574610:9eed92298a4b4d57bf32fc346700eac5)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="3417c55a01f342ecaa7b97b0da2cef00" Pattern="&quot;{9CCDFF89-5F32-433A-872F-E856C13753EB}&quot;">
+					<Wire Id="4f6a7e5ca33f4f8dac8ae194da5558fb" Joints="N(61ed5007f48543589edfc373f5f18327:3417c55a01f342ecaa7b97b0da2cef00)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:3417c55a01f342ecaa7b97b0da2cef00)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="eb5f8eccd1034d158070150f8f8f23a5" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes sous vide</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="7643b940cd074c9ebea0cf0b9d572601" Joints="N(eb5f8eccd1034d158070150f8f8f23a5:Out)|(421,35) N(736acb746584411bb7f309340d574610:3417c55a01f342ecaa7b97b0da2cef00)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="40ba2584ea304f5b809c80c2d31f802f" Pattern="&quot;{76CCAED3-46A9-4528-A2E4-0F67229A6CFE}&quot;">
+					<Wire Id="ef2ad4a31d0472ca74bf005bc4e77ad" Joints="N(61ed5007f48543589edfc373f5f18327:40ba2584ea304f5b809c80c2d31f802f)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:40ba2584ea304f5b809c80c2d31f802f)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="98367a04159f4066a3b74083d4c398da" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes sous vide</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a13a16d229b84a98850ce9e1142d2a16" Joints="N(98367a04159f4066a3b74083d4c398da:Out)|(421,35) N(736acb746584411bb7f309340d574610:40ba2584ea304f5b809c80c2d31f802f)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="9fce9c178cb847e9b052015d9067835a" Pattern="&quot;{D905FC70-26FE-4361-841C-CF7EB5AB02F8}&quot;">
+					<Wire Id="d99dae713ac84100b0a063c5d6478cd0" Joints="N(61ed5007f48543589edfc373f5f18327:9fce9c178cb847e9b052015d9067835a)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:9fce9c178cb847e9b052015d9067835a)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="14e82121e2a3410887348d823d1b86de" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat overnight ragout</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="c4a9514df24341d599077801831c9082" Joints="N(14e82121e2a3410887348d823d1b86de:Out)|(421,35) N(736acb746584411bb7f309340d574610:9fce9c178cb847e9b052015d9067835a)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="507c6fd4bac940839b5363375b480a89" Pattern="&quot;{AC90B87A-851F-4974-AF85-3BBEBA4CA38A}&quot;">
+					<Wire Id="72924a619941416ab2e61d5de4405949" Joints="N(61ed5007f48543589edfc373f5f18327:507c6fd4bac940839b5363375b480a89)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:507c6fd4bac940839b5363375b480a89)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="5ef1aeaad0914b85a84a41a9e3f8e1d2" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Braise fish</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="77f13d3c403e40d1b288fda31f4ec858" Joints="N(5ef1aeaad0914b85a84a41a9e3f8e1d2:Out)|(421,35) N(736acb746584411bb7f309340d574610:507c6fd4bac940839b5363375b480a89)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="5e0f788db3c34998bb96b40734ea006b" Pattern="&quot;{6007EF01-EB38-4F45-ADBE-B5F936248095}&quot;">
+					<Wire Id="c84bd14a020a42cdb64727bb20f7af42" Joints="N(61ed5007f48543589edfc373f5f18327:5e0f788db3c34998bb96b40734ea006b)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:5e0f788db3c34998bb96b40734ea006b)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="83eaa88b144d4a64a556b86360a84a20" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Finishing Glaze inserts</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="ae0691cb5d64433d93db05894d801252" Joints="N(83eaa88b144d4a64a556b86360a84a20:Out)|(421,35) N(736acb746584411bb7f309340d574610:5e0f788db3c34998bb96b40734ea006b)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="7fd1468a5f8c4b469513f0a01b69a585" Pattern="&quot;{C35385BF-4660-4C69-936A-51376368D360}&quot;">
+					<Wire Id="1f8dad0b50dc4b77ac638ca30f80a2e7" Joints="N(61ed5007f48543589edfc373f5f18327:7fd1468a5f8c4b469513f0a01b69a585)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:7fd1468a5f8c4b469513f0a01b69a585)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="8363b90a44a0461b87071a88c45ad0cc" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Finishing meat in a sauce</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="7588197a905d42bf93ce4d93e8134f57" Joints="N(8363b90a44a0461b87071a88c45ad0cc:Out)|(421,35) N(736acb746584411bb7f309340d574610:7fd1468a5f8c4b469513f0a01b69a585)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="fcfbc459d2d14ffaa2c3d43f58fd282c" Pattern="&quot;{73CC0056-87E2-4D31-8DA3-8ACCD77928EC}&quot;">
+					<Wire Id="282e0c62d9bb433eadc5f678674c0118" Joints="N(61ed5007f48543589edfc373f5f18327:fcfbc459d2d14ffaa2c3d43f58fd282c)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:fcfbc459d2d14ffaa2c3d43f58fd282c)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="a262e9e4f8504e6db02ddac2b69ebbe8" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soups Sauces Soup</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="f8a10cd9678c42468cd395c25f8e960f" Joints="N(a262e9e4f8504e6db02ddac2b69ebbe8:Out)|(421,35) N(736acb746584411bb7f309340d574610:fcfbc459d2d14ffaa2c3d43f58fd282c)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="ea741a914a1547a982defa6ee194d1e4" Pattern="&quot;{8615E55F-80DF-4BA1-84A7-0335FA572EB5}&quot;">
+					<Wire Id="f7702115f8b1407e8f1ffb1d89ee8b40" Joints="N(61ed5007f48543589edfc373f5f18327:ea741a914a1547a982defa6ee194d1e4)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:ea741a914a1547a982defa6ee194d1e4)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="49d7a98b23fc40cf893956fc8cf539ff" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Scrambled egg dishes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="e3023240f3a44c03a33b7dc44d328318" Joints="N(49d7a98b23fc40cf893956fc8cf539ff:Out)|(421,35) N(736acb746584411bb7f309340d574610:ea741a914a1547a982defa6ee194d1e4)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e2dfc900529c4b6fbfc991ed14e855af" Pattern="&quot;{6C265656-689C-4C74-9A9F-635C1EDE38C2}&quot;">
+					<Wire Id="3f50c5156b75435fadcc57f66fd9ab48" Joints="N(61ed5007f48543589edfc373f5f18327:e2dfc900529c4b6fbfc991ed14e855af)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e2dfc900529c4b6fbfc991ed14e855af)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="381a1d438a8e428fa6d35631deaca75a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes JP Onsen Tamago</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="95cd37a325474cda9279fa7d064c4aa8" Joints="N(381a1d438a8e428fa6d35631deaca75a:Out)|(421,35) N(736acb746584411bb7f309340d574610:e2dfc900529c4b6fbfc991ed14e855af)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="f9b7b391ac8d44f086f939723fc78e52" Pattern="&quot;{7CF10941-AA8B-41BA-8426-4DA4C4898039}&quot;">
+					<Wire Id="754e15e665154de5aaa2e9f1c8b5c428" Joints="N(61ed5007f48543589edfc373f5f18327:f9b7b391ac8d44f086f939723fc78e52)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:f9b7b391ac8d44f086f939723fc78e52)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 15" DataType="String" Id="bc7625b83c0c4299b13e7c38721669eb" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fish Seafood Roast</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="4fd83fbdc1ff407091ad91ef63387bc3" Joints="N(bc7625b83c0c4299b13e7c38721669eb:Out)|(421,35) N(736acb746584411bb7f309340d574610:f9b7b391ac8d44f086f939723fc78e52)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="c231e3319d3a4888ab542c3e689dd2b7" Pattern="&quot;{91536D42-994F-4C24-88AD-1457CDB19811}&quot;">
+					<Wire Id="852faa4846a64cdca0e49c9a47e36685" Joints="N(61ed5007f48543589edfc373f5f18327:c231e3319d3a4888ab542c3e689dd2b7)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:c231e3319d3a4888ab542c3e689dd2b7)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="33d4c9967c234660ac7ad68b3e746da7" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Dairy and sweet dishes \nDeep-frying"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="757e801cee654cb4ab1d7504bc0a4bca" Joints="N(33d4c9967c234660ac7ad68b3e746da7:Out)|(421,35) N(736acb746584411bb7f309340d574610:c231e3319d3a4888ab542c3e689dd2b7)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="2fe25ba6673a430dae802a763c83c956" Pattern="&quot;{472F76E4-F1B6-4670-B4BD-5F74F50A6726}&quot;">
+					<Wire Id="eaf3a7c437c948a693bd827bcda1e1d6" Joints="N(61ed5007f48543589edfc373f5f18327:2fe25ba6673a430dae802a763c83c956)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:2fe25ba6673a430dae802a763c83c956)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="e6dfedde4a874671bd6ad1583985647e" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Dairy and sweet dishes \nRoasting nuts"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="f192166d47a94ed1a333e3475a63e2ce" Joints="N(e6dfedde4a874671bd6ad1583985647e:Out)|(421,35) N(736acb746584411bb7f309340d574610:2fe25ba6673a430dae802a763c83c956)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="32f4f6f7838c41ac8ff954d3c8500ba6" Pattern="&quot;{73326502-244E-4CB6-BFE7-01A18EDA5593}&quot;">
+					<Wire Id="f7b03b8a085e4108874bcb424eba7cce" Joints="N(61ed5007f48543589edfc373f5f18327:32f4f6f7838c41ac8ff954d3c8500ba6)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:32f4f6f7838c41ac8ff954d3c8500ba6)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="206ad0e55e634c7193e8740960b7fe67" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Milk and desserts Melting \nchocolate"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="fb031666387b4cb58875f6334f7d73fa" Joints="N(206ad0e55e634c7193e8740960b7fe67:Out)|(421,35) N(736acb746584411bb7f309340d574610:32f4f6f7838c41ac8ff954d3c8500ba6)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="d75731440b514c64895956c5e72b1619" Pattern="&quot;{A9DF25A7-FEA7-459B-894F-96E0C61112C2}&quot;">
+					<Wire Id="8d17b8aa29e14b71a895c74b592c38b7" Joints="N(61ed5007f48543589edfc373f5f18327:d75731440b514c64895956c5e72b1619)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:d75731440b514c64895956c5e72b1619)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="8acacb5613504ea48af7b92a4e86df18" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes Confit</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="2498e6b34989440fa1c9e69fdc54e84b" Joints="N(8acacb5613504ea48af7b92a4e86df18:Out)|(421,35) N(736acb746584411bb7f309340d574610:d75731440b514c64895956c5e72b1619)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="5bbe047394804818b889fb064eb33f2a" Pattern="&quot;{7DE9039C-B156-4C43-A0C6-E41A53FC3210}&quot;">
+					<Wire Id="c14cdf909ecc432d8e450b6d12c1cf01" Joints="N(61ed5007f48543589edfc373f5f18327:5bbe047394804818b889fb064eb33f2a)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:5bbe047394804818b889fb064eb33f2a)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="3b09233127a34650a83cdf2fd1a7c18a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Stew meat overnight</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="666b0b36c237404fa888ccdf9d7b2e56" Joints="N(3b09233127a34650a83cdf2fd1a7c18a:Out)|(421,35) N(736acb746584411bb7f309340d574610:5bbe047394804818b889fb064eb33f2a)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="351fa3240a09429facffff843426daae" Pattern="&quot;{C99C0D43-0C2C-4451-BA82-DCFB1F475218}&quot;">
+					<Wire Id="a63ea2666ece4ef7942a00155a3cf441" Joints="N(61ed5007f48543589edfc373f5f18327:351fa3240a09429facffff843426daae)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:351fa3240a09429facffff843426daae)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="4b6e496912284bbf97195c0e60f8821b" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Dairy and desserts Sugar Cooking Caramel</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="fc818c0ef9a64ac88987f2f1b38b0fd9" Joints="N(4b6e496912284bbf97195c0e60f8821b:Out)|(421,35) N(736acb746584411bb7f309340d574610:351fa3240a09429facffff843426daae)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="ef7847c39024423dbe34a9e17f5c07b1" Pattern="&quot;{5BE910D5-95CA-48F7-B027-89DEBC6F0D48}&quot;">
+					<Wire Id="ab850d533f7a4daca0b59776eab1c53c" Joints="N(61ed5007f48543589edfc373f5f18327:ef7847c39024423dbe34a9e17f5c07b1)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:ef7847c39024423dbe34a9e17f5c07b1)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="a80b13083cf94fe5807edb91c91892ef" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Dairy and desserts Fruits Cooking</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="382d10e1977b41cbb2313fdb32a8e826" Joints="N(a80b13083cf94fe5807edb91c91892ef:Out)|(421,35) N(736acb746584411bb7f309340d574610:ef7847c39024423dbe34a9e17f5c07b1)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e5c6af7ed96047c29ce497b6d0ddc8cf" Pattern="&quot;{03DADB22-5777-4F09-9A84-B11C0EF7331E}&quot;">
+					<Wire Id="3fa29ffe82c64cd5aa4a20ad36df1757" Joints="N(61ed5007f48543589edfc373f5f18327:e5c6af7ed96047c29ce497b6d0ddc8cf)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e5c6af7ed96047c29ce497b6d0ddc8cf)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="3739e1a7809b40cd818d94e3e8464145" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soup sauces</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="b4cb4a4fdf2844b1bee35e441c81b0b9" Joints="N(3739e1a7809b40cd818d94e3e8464145:Out)|(421,35) N(736acb746584411bb7f309340d574610:e5c6af7ed96047c29ce497b6d0ddc8cf)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="73e16ab1063348dfb870df57c332c3f6" Pattern="&quot;{2EB2C441-89BB-4F1B-BDC0-2EF3CD16DA44}&quot;">
+					<Wire Id="86fdd933ede947979fc06cd8a5e56307" Joints="N(61ed5007f48543589edfc373f5f18327:73e16ab1063348dfb870df57c332c3f6)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:73e16ab1063348dfb870df57c332c3f6)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="e4ed145b13954c51aae19367381244f8" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Reduce soups sauces</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="64f5e90dc24942b082ca5b554ae47eb4" Joints="N(e4ed145b13954c51aae19367381244f8:Out)|(421,35) N(736acb746584411bb7f309340d574610:73e16ab1063348dfb870df57c332c3f6)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="c4a6230263904258a43313144632d36f" Pattern="&quot;{A5141EF1-787E-4873-BB49-8FEE8C978DD9}&quot;">
+					<Wire Id="810f3f212f5d4f28bbff36ef3c76570d" Joints="N(61ed5007f48543589edfc373f5f18327:c4a6230263904258a43313144632d36f)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:c4a6230263904258a43313144632d36f)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="938bfe736c5b4d259b9fb689479474a8" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soups Sauces Stock</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="92020eedbe674affa53a1cd668a055aa" Joints="N(938bfe736c5b4d259b9fb689479474a8:Out)|(421,35) N(736acb746584411bb7f309340d574610:c4a6230263904258a43313144632d36f)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="499cfa82f25473d9fbc1e9f4ad7ce00" Pattern="&quot;{C6D16EC3-090F-4B6A-B265-D51BA2DA34CD}&quot;">
+					<Wire Id="6b47792811cb461a840a52afc2b2ecac" Joints="N(61ed5007f48543589edfc373f5f18327:499cfa82f25473d9fbc1e9f4ad7ce00)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:499cfa82f25473d9fbc1e9f4ad7ce00)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="866993672a5049b5a306bfe4fbc82fea" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes Cooking eggs</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="318bcae0071a4bdfa62de2cae5d6e0e3" Joints="N(866993672a5049b5a306bfe4fbc82fea:Out)|(421,35) N(736acb746584411bb7f309340d574610:499cfa82f25473d9fbc1e9f4ad7ce00)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="1dd7a627118d47bcb7d5841f89d4b77f" Pattern="&quot;{7BCAA527-D2C7-420E-A091-94C893153871}&quot;">
+					<Wire Id="bdbac9ab96ea4ef8b3cfa21cdfb5054f" Joints="N(61ed5007f48543589edfc373f5f18327:1dd7a627118d47bcb7d5841f89d4b77f)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:1dd7a627118d47bcb7d5841f89d4b77f)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="a919cbfb1ca94156a2d3ce3897321b53" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes Pancakes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="a4411a5c47d54d11bc3dbd8ce0e603b7" Joints="N(a919cbfb1ca94156a2d3ce3897321b53:Out)|(421,35) N(736acb746584411bb7f309340d574610:1dd7a627118d47bcb7d5841f89d4b77f)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="4e57b4c7d0814482898fb1e5811697d6" Pattern="&quot;{443EEC20-C943-456F-9D9B-87410095870B}&quot;">
+					<Wire Id="3545e3628e68432289aa796402c89018" Joints="N(61ed5007f48543589edfc373f5f18327:4e57b4c7d0814482898fb1e5811697d6)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:4e57b4c7d0814482898fb1e5811697d6)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="a842b57cdcf04f53a17e39cf9974b9bb" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fish roast</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5253da132c504824a8a00870ba9568d4" Joints="N(a842b57cdcf04f53a17e39cf9974b9bb:Out)|(421,35) N(736acb746584411bb7f309340d574610:4e57b4c7d0814482898fb1e5811697d6)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="da4b1df5a9cb45639ae64551481d4801" Pattern="&quot;{795A0A29-9C80-411C-900A-6AA5BACD50BC}&quot;">
+					<Wire Id="914389d5cb87403b9bd4f06512b0c473" Joints="N(61ed5007f48543589edfc373f5f18327:da4b1df5a9cb45639ae64551481d4801)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:da4b1df5a9cb45639ae64551481d4801)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="db4c3cb71564482a4c8ff66443e2ef2" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes Cooking Pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="afef625edc574854a9c0668e57f90c2e" Joints="N(db4c3cb71564482a4c8ff66443e2ef2:Out)|(421,35) N(736acb746584411bb7f309340d574610:da4b1df5a9cb45639ae64551481d4801)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="75afaf0ee67143cd9723288b85427760" Pattern="&quot;{88A398A6-EC7E-436E-A76F-70CB1E0CF5B6}&quot;">
+					<Wire Id="f3ef772d696d49acb43e8af487a11a49" Joints="N(61ed5007f48543589edfc373f5f18327:75afaf0ee67143cd9723288b85427760)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:75afaf0ee67143cd9723288b85427760)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="d768b1bd4b934075ab9863726af17096" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat cooking Pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="b7be44b7836443ada40d937057bcca08" Joints="N(d768b1bd4b934075ab9863726af17096:Out)|(421,35) N(736acb746584411bb7f309340d574610:75afaf0ee67143cd9723288b85427760)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="335e05b6c5b942d68b8941f8f3ba7503" Pattern="&quot;{EA019C20-C014-4934-89E9-44011905A173}&quot;">
+					<Wire Id="18f313d8af4e4d5e89f96e91a37f63fb" Joints="N(61ed5007f48543589edfc373f5f18327:335e05b6c5b942d68b8941f8f3ba7503)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:335e05b6c5b942d68b8941f8f3ba7503)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="195d6676ae2741c284e3d985f2115e0e" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat ragout Pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5f6b806bebd147438a609652f5a11a6a" Joints="N(195d6676ae2741c284e3d985f2115e0e:Out)|(421,35) N(736acb746584411bb7f309340d574610:335e05b6c5b942d68b8941f8f3ba7503)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="c29317c216984f12b746265a8bcbf252" Pattern="&quot;{B980EDF7-A5FB-4EA3-ABFC-952E6564AE75}&quot;">
+					<Wire Id="331f03073e154037b191c12861839dfb" Joints="N(61ed5007f48543589edfc373f5f18327:c29317c216984f12b746265a8bcbf252)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:c29317c216984f12b746265a8bcbf252)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="c34111b407f14200a1d37ad1b90b6e97" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Stewing meat Pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="233e7e8381884c44b6a8c6555081c4b8" Joints="N(c34111b407f14200a1d37ad1b90b6e97:Out)|(421,35) N(736acb746584411bb7f309340d574610:c29317c216984f12b746265a8bcbf252)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="d8ee073f2a34c0288220cc721c5af97" Pattern="&quot;{07CC88AC-A9D4-4103-A636-413A091EB32A}&quot;">
+					<Wire Id="46acea4fdb604343a4c175c4e06f7d14" Joints="N(61ed5007f48543589edfc373f5f18327:d8ee073f2a34c0288220cc721c5af97)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:d8ee073f2a34c0288220cc721c5af97)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="7839aa15735e4252b8462f209b49ec97" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Side dishes Potatoes \nCooking Pressure"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="f686d2165aad4b8681564968482f5531" Joints="N(7839aa15735e4252b8462f209b49ec97:Out)|(421,35) N(736acb746584411bb7f309340d574610:d8ee073f2a34c0288220cc721c5af97)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="ae50a55570ed4b22bf427c62b769023d" Pattern="&quot;{5B2D83A6-92A7-4840-A26B-DDB529C430DB}&quot;">
+					<Wire Id="86fe9a3b8fdc496bb3fc5ec8994b3ac9" Joints="N(61ed5007f48543589edfc373f5f18327:ae50a55570ed4b22bf427c62b769023d)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:ae50a55570ed4b22bf427c62b769023d)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="1a75ee2759bb4c4a85ff7c5026c96011" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Milk and desserts "Kaiserschmarren"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="e2891f5edece427fa1bd8cd34971027c" Joints="N(1a75ee2759bb4c4a85ff7c5026c96011:Out)|(421,35) N(736acb746584411bb7f309340d574610:ae50a55570ed4b22bf427c62b769023d)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="a462cf89c64b4d93b39a91d98a08230e" Pattern="&quot;{ED462232-9AC4-4E4D-A985-2B18BBA364EA}&quot;">
+					<Wire Id="e3f4b86ba20b4873ac1d9e126741e166" Joints="N(61ed5007f48543589edfc373f5f18327:a462cf89c64b4d93b39a91d98a08230e)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:a462cf89c64b4d93b39a91d98a08230e)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="67e37891c97c4ceba2d1062ac8d6aa47" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes Cooking pasta</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="4cd0d698183d4774ac769b3a8b1be78f" Joints="N(67e37891c97c4ceba2d1062ac8d6aa47:Out)|(421,35) N(736acb746584411bb7f309340d574610:a462cf89c64b4d93b39a91d98a08230e)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="a1afbab418a6407aa93cecc28569bc32" Pattern="&quot;{F50B26FB-7796-42EC-97DB-7A5F94F2CF65}&quot;">
+					<Wire Id="d5522e85b61d43fc84ab6704ad6770ee" Joints="N(61ed5007f48543589edfc373f5f18327:a1afbab418a6407aa93cecc28569bc32)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:a1afbab418a6407aa93cecc28569bc32)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="326b1432313d46968e3350d197b7b57f" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Milk and dessert crepes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="2abc975fea1b4270818372af782588a0" Joints="N(326b1432313d46968e3350d197b7b57f:Out)|(421,35) N(736acb746584411bb7f309340d574610:a1afbab418a6407aa93cecc28569bc32)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e662c76abcd44f9ca6593a0f6be19004" Pattern="&quot;{C3BBC1E5-DA7A-43C6-9E52-42994DE41622}&quot;">
+					<Wire Id="9f005de2e9464d11ae2715623bae7820" Joints="N(61ed5007f48543589edfc373f5f18327:e662c76abcd44f9ca6593a0f6be19004)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e662c76abcd44f9ca6593a0f6be19004)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="3ea5974018724586964d0860b9173dc6" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soups Sauces Sauce</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="ff5ceed0111e4f50bd882d3c2ea60dcb" Joints="N(3ea5974018724586964d0860b9173dc6:Out)|(421,35) N(736acb746584411bb7f309340d574610:e662c76abcd44f9ca6593a0f6be19004)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="a9418e6cfe3498f9f8619518e07384a" Pattern="&quot;{924FF526-99F8-46DF-9630-9F42070E98C1}&quot;">
+					<Wire Id="9c9a23dea6e7475c85d0be51de7337a1" Joints="N(61ed5007f48543589edfc373f5f18327:a9418e6cfe3498f9f8619518e07384a)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:a9418e6cfe3498f9f8619518e07384a)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="eb3bc6468a6243eca1b2f95da98a25c4" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soups Sauces Soup pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="37a0f46f18d544a5bd551e33e8f630b6" Joints="N(eb3bc6468a6243eca1b2f95da98a25c4:Out)|(421,35) N(736acb746584411bb7f309340d574610:a9418e6cfe3498f9f8619518e07384a)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="d21d984df78140a98bf5d2e3c340dab2" Pattern="&quot;{E55731C2-5F76-47DF-8F87-DBBA0537A070}&quot;">
+					<Wire Id="49fb44ca193144f3a4e969e914e133c7" Joints="N(61ed5007f48543589edfc373f5f18327:d21d984df78140a98bf5d2e3c340dab2)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:d21d984df78140a98bf5d2e3c340dab2)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="3783f4e239474b2d962a4558984a27cd" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soups Sauces Sauce pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="2c7a940dcd174bca97d6620a27b27a88" Joints="N(3783f4e239474b2d962a4558984a27cd:Out)|(421,35) N(736acb746584411bb7f309340d574610:d21d984df78140a98bf5d2e3c340dab2)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="5a62acc15f3c473086b87813f9599f4d" Pattern="&quot;{64E6B664-4CAD-4A58-9231-70CFA1089E33}&quot;">
+					<Wire Id="6ff536f9bbeb48bfb0ba1182ed8110a6" Joints="N(61ed5007f48543589edfc373f5f18327:5a62acc15f3c473086b87813f9599f4d)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:5a62acc15f3c473086b87813f9599f4d)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="10e840ba89074dfb86c88f72949eaa48" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Soups Sauces Stock pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="e9a439377b0449468707c6ecab572631" Joints="N(10e840ba89074dfb86c88f72949eaa48:Out)|(421,35) N(736acb746584411bb7f309340d574610:5a62acc15f3c473086b87813f9599f4d)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="f826b845855e42c09ba9e8d5f5ea750a" Pattern="&quot;{69268FFB-712D-47A1-AF8E-8B2D52012A0E}&quot;">
+					<Wire Id="9eaf1de3ca6f450d919b9ac668f6c502" Joints="N(61ed5007f48543589edfc373f5f18327:f826b845855e42c09ba9e8d5f5ea750a)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:f826b845855e42c09ba9e8d5f5ea750a)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="6f9079d2ce248bc958dc0930009a781" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fish stewing pressure</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="99259f65f6dc484bb97facf8a7e09ff2" Joints="N(6f9079d2ce248bc958dc0930009a781:Out)|(421,35) N(736acb746584411bb7f309340d574610:f826b845855e42c09ba9e8d5f5ea750a)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="62a810b2ce0e44a2a0feb943fee873c9" Pattern="&quot;{9CF563D2-67DC-49D6-A3BB-FA8318EA067E}&quot;">
+					<Wire Id="929f2505e75840f99e2fd81c032a7e22" Joints="N(61ed5007f48543589edfc373f5f18327:62a810b2ce0e44a2a0feb943fee873c9)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:62a810b2ce0e44a2a0feb943fee873c9)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="13a72368019043aabca4b43e3c789b39" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes paella</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="352648d952c04076bea1ab95c61419bd" Joints="N(13a72368019043aabca4b43e3c789b39:Out)|(421,35) N(736acb746584411bb7f309340d574610:62a810b2ce0e44a2a0feb943fee873c9)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="ac7aadae7f514f328aeb00db6bc12738" Pattern="&quot;{CFBA3DDE-EDF5-4CF0-A7D2-428E8711FA88}&quot;">
+					<Wire Id="171c077e81f74af39cb835e90a1cdf9b" Joints="N(61ed5007f48543589edfc373f5f18327:ac7aadae7f514f328aeb00db6bc12738)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:ac7aadae7f514f328aeb00db6bc12738)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="d532e20c26f44fab22fc64564fb1372" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Risotto side dishes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="dbc148a074e545d687fc4cc02edd67f3" Joints="N(d532e20c26f44fab22fc64564fb1372:Out)|(421,35) N(736acb746584411bb7f309340d574610:ac7aadae7f514f328aeb00db6bc12738)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="715672c7362a4a59aefb1b4ef02e1016" Pattern="&quot;{F937A38A-D1EC-4ED5-BEB1-7B1CF1A94AE0}&quot;">
+					<Wire Id="1e6c266365d1476e9d17f53d750ad219" Joints="N(61ed5007f48543589edfc373f5f18327:715672c7362a4a59aefb1b4ef02e1016)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:715672c7362a4a59aefb1b4ef02e1016)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="d87e3af5c58b4294b4367cc06c5ea7b7" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat CHN Stew</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="af529be32f3b47eb87f9d89862ea1dd0" Joints="N(d87e3af5c58b4294b4367cc06c5ea7b7:Out)|(421,35) N(736acb746584411bb7f309340d574610:715672c7362a4a59aefb1b4ef02e1016)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="bec38f4452214b21bbfc23b34604e2c4" Pattern="&quot;{75CD3EB0-53AB-4897-9C84-C7534772A2B6}&quot;">
+					<Wire Id="30820774ade147d4a52159711a472028" Joints="N(61ed5007f48543589edfc373f5f18327:bec38f4452214b21bbfc23b34604e2c4)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:bec38f4452214b21bbfc23b34604e2c4)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="d9d2a5f68821417783fc24dc5967d915" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Sides Convenience puree</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="cc76bcefd5cd45e5b1bdb157bcbc204d" Joints="N(d9d2a5f68821417783fc24dc5967d915:Out)|(421,35) N(736acb746584411bb7f309340d574610:bec38f4452214b21bbfc23b34604e2c4)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="aeb2d22056cd46728da4a458c0ac3f30" Pattern="&quot;{96FB24CF-DC88-4D4E-98B0-7E0CE0B689BF}&quot;">
+					<Wire Id="ec45de664fbc462d86038d08ef9b18a2" Joints="N(61ed5007f48543589edfc373f5f18327:aeb2d22056cd46728da4a458c0ac3f30)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:aeb2d22056cd46728da4a458c0ac3f30)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="705756f401fc45bbaf036c5a41736bee" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes CHN Congee</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="34664e6120f942c5abc46425640e38b6" Joints="N(705756f401fc45bbaf036c5a41736bee:Out)|(421,35) N(736acb746584411bb7f309340d574610:aeb2d22056cd46728da4a458c0ac3f30)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="4a6940d035f1484988b6969d4a4bb001" Pattern="&quot;{0A22FFEB-ED15-472F-8FF1-B76A2EC21533}&quot;">
+					<Wire Id="632a1e83c7864435842f4bd4960fdff8" Joints="N(61ed5007f48543589edfc373f5f18327:4a6940d035f1484988b6969d4a4bb001)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:4a6940d035f1484988b6969d4a4bb001)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="78c548ba82374a478b775f69e89f40eb" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Sides CHN Fried Dumplings \nGyoza"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="475a751b5b964cdea84b3d0aedd224fa" Joints="N(78c548ba82374a478b775f69e89f40eb:Out)|(421,35) N(736acb746584411bb7f309340d574610:4a6940d035f1484988b6969d4a4bb001)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="8897b286997744bb800c2dfc05df8ac4" Pattern="&quot;{DCB143C5-3975-4CFD-831D-43B09E44A668}&quot;">
+					<Wire Id="7081186a09654c6eb3ccecdb40b64b0e" Joints="N(61ed5007f48543589edfc373f5f18327:8897b286997744bb800c2dfc05df8ac4)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:8897b286997744bb800c2dfc05df8ac4)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="999c0b58372747d9a3fecfca575273b1" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Side dishes Rice Cooking \nPressure"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="fcb6ed53e2184c3587a253e6b52c4001" Joints="N(999c0b58372747d9a3fecfca575273b1:Out)|(421,35) N(736acb746584411bb7f309340d574610:8897b286997744bb800c2dfc05df8ac4)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e11eb4c07b954b80a5b7d68a27150ea1" Pattern="&quot;{BB176372-E97A-4B34-8FC0-4FAD83387144}&quot;">
+					<Wire Id="60fc18e826ac4c27afd4fa0ba480bfb0" Joints="N(61ed5007f48543589edfc373f5f18327:e11eb4c07b954b80a5b7d68a27150ea1)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e11eb4c07b954b80a5b7d68a27150ea1)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="db690cfba0a24313b092d8a931ec0174" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Supplements CHN Zongzi \npressure"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="288377ef9c8c4fc681f475a680989a08" Joints="N(db690cfba0a24313b092d8a931ec0174:Out)|(421,35) N(736acb746584411bb7f309340d574610:e11eb4c07b954b80a5b7d68a27150ea1)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="28bc250b04c141c79c72f035222625c4" Pattern="&quot;{59111FFD-294C-41A3-A52F-752E4BAABDF8}&quot;">
+					<Wire Id="60e03d48cdf647aa831f19cd1c2d7bfd" Joints="N(61ed5007f48543589edfc373f5f18327:28bc250b04c141c79c72f035222625c4)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:28bc250b04c141c79c72f035222625c4)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="983508b291f541429df420db1f8a1f04" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat CHN Lou Mei</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="ebc9aadbe5e943afb4aecf9fcfe8f46a" Joints="N(983508b291f541429df420db1f8a1f04:Out)|(421,35) N(736acb746584411bb7f309340d574610:28bc250b04c141c79c72f035222625c4)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="7cacf545d9a4543adadbfe2dd8ec715" Pattern="&quot;{23754E7C-F5C5-4070-A6F1-DC83EB5E20BF}&quot;">
+					<Wire Id="6a1afd16b1a94f59b4018a357fe0e751" Joints="N(61ed5007f48543589edfc373f5f18327:7cacf545d9a4543adadbfe2dd8ec715)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:7cacf545d9a4543adadbfe2dd8ec715)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="7119ec01c6f6431db40c62a08d70d161" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat CHN Lou Mei</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="e3373161859c435f8863d6dd39a2cfe4" Joints="N(7119ec01c6f6431db40c62a08d70d161:Out)|(421,35) N(736acb746584411bb7f309340d574610:7cacf545d9a4543adadbfe2dd8ec715)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="3b4a26188f1a4fef8b296feba5a3d7ed" Pattern="&quot;{F35A640B-645D-43FD-842C-A853152BA4C4}&quot;">
+					<Wire Id="d07afbd5485d40499530e6fcdcf75d35" Joints="N(61ed5007f48543589edfc373f5f18327:3b4a26188f1a4fef8b296feba5a3d7ed)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:3b4a26188f1a4fef8b296feba5a3d7ed)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="e0321d1e6c4f42e7a6b5dc9849695e1a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fish roast WA82</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="536658b967f54ba6b3a581229656dd76" Joints="N(e0321d1e6c4f42e7a6b5dc9849695e1a:Out)|(421,35) N(736acb746584411bb7f309340d574610:3b4a26188f1a4fef8b296feba5a3d7ed)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="2f3d586deede4ba281ec023166f803d0" Pattern="&quot;{99846438-F5BE-4382-9C26-941F462CDA99}&quot;">
+					<Wire Id="3c6290e1e3594b428ec76781019fe16e" Joints="N(61ed5007f48543589edfc373f5f18327:2f3d586deede4ba281ec023166f803d0)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:2f3d586deede4ba281ec023166f803d0)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="a828c51bf6e1414f82c94671851c6d96" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Fish Seafood Roast \nWA82"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="80ea1452c24c431ab665bfd82a2cbcc0" Joints="N(a828c51bf6e1414f82c94671851c6d96:Out)|(421,35) N(736acb746584411bb7f309340d574610:2f3d586deede4ba281ec023166f803d0)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="15076299774e4ab88a6226c4d88069b8" Pattern="&quot;{6FC603A5-8658-4BFA-9EA0-F486C96DB74D}&quot;">
+					<Wire Id="11625474f2bd40718919500cb7d2615a" Joints="N(61ed5007f48543589edfc373f5f18327:15076299774e4ab88a6226c4d88069b8)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:15076299774e4ab88a6226c4d88069b8)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="c3b8495109f641609c23875503dced61" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Side dishes Roast WA82</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="b8fce2d805314fafb5db1f3c9e683bfe" Joints="N(c3b8495109f641609c23875503dced61:Out)|(421,35) N(736acb746584411bb7f309340d574610:15076299774e4ab88a6226c4d88069b8)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="b23a24e8d2574aa3a70f25cdf959ccc9" Pattern="&quot;{26F12F90-7E27-4406-90CE-E34289F818F0}&quot;">
+					<Wire Id="699c65a084204131967c3b86a9423200" Joints="N(61ed5007f48543589edfc373f5f18327:b23a24e8d2574aa3a70f25cdf959ccc9)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:b23a24e8d2574aa3a70f25cdf959ccc9)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="46ceb92c29c94b129ca1f96d1128c74a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Glaze inserts WA82</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="939d7902c7444892b1d07a58e6dd576e" Joints="N(46ceb92c29c94b129ca1f96d1128c74a:Out)|(421,35) N(736acb746584411bb7f309340d574610:b23a24e8d2574aa3a70f25cdf959ccc9)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="7425c4d48a3f4ff7acf51584d2a67e3f" Pattern="&quot;{9A990D7D-2DF2-44B4-B9C2-630F44D6412F}&quot;">
+					<Wire Id="66e8075131434bfeb29ebdf11a4fe46e" Joints="N(61ed5007f48543589edfc373f5f18327:7425c4d48a3f4ff7acf51584d2a67e3f)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:7425c4d48a3f4ff7acf51584d2a67e3f)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="2a006ab09e3844c4851f824b62b6635c" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes and desserts Fried eggs WA82</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="5da043a884194e9c9276e8570f2ecdb7" Joints="N(2a006ab09e3844c4851f824b62b6635c:Out)|(421,35) N(736acb746584411bb7f309340d574610:7425c4d48a3f4ff7acf51584d2a67e3f)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="d49aaca4b8bb456b821af3b69b05d82c" Pattern="&quot;{DEDE609F-A6C1-47AD-A5D0-5DFB47355999}&quot;">
+					<Wire Id="740e66ec0ad4b4d8f637ee4d203a759" Joints="N(61ed5007f48543589edfc373f5f18327:d49aaca4b8bb456b821af3b69b05d82c)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:d49aaca4b8bb456b821af3b69b05d82c)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="91463fc316e8463da678c89e6c845271" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Egg dishes and desserts Omelette \nWA82"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="61e31eaae5ef4ca88874e2c37d7ed3e6" Joints="N(91463fc316e8463da678c89e6c845271:Out)|(421,35) N(736acb746584411bb7f309340d574610:d49aaca4b8bb456b821af3b69b05d82c)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="cc90073bf807465a83d064e3d66ebb80" Pattern="&quot;{B5CE2367-6200-4652-B2D0-E08EFBBACFB9}&quot;">
+					<Wire Id="c2a38c1e379d459aa11828e27bee1ba8" Joints="N(61ed5007f48543589edfc373f5f18327:cc90073bf807465a83d064e3d66ebb80)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:cc90073bf807465a83d064e3d66ebb80)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="f70d21ab09f14ce2ac9483eef50b94de" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes and desserts DACH FI HU Kaiserschmarren WA82</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="78b49c1933e64263a949d985957fbf2e" Joints="N(f70d21ab09f14ce2ac9483eef50b94de:Out)|(421,35) N(736acb746584411bb7f309340d574610:cc90073bf807465a83d064e3d66ebb80)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="5af49479529c4fdab1c299dfc75965f3" Pattern="&quot;{E69CB6E7-E860-4BD4-B460-AC2EA622B61B}&quot;">
+					<Wire Id="fcc20469a85c4852a76d073a46552741" Joints="N(61ed5007f48543589edfc373f5f18327:5af49479529c4fdab1c299dfc75965f3)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:5af49479529c4fdab1c299dfc75965f3)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="3f16f5d2563248788f23119e321da36c" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Egg dishes and desserts JP \nTamagoyaki WA82"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="6812f92a246d458ca2d42f819dde1cb3" Joints="N(3f16f5d2563248788f23119e321da36c:Out)|(421,35) N(736acb746584411bb7f309340d574610:5af49479529c4fdab1c299dfc75965f3)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="fb4b0d90fce44926a178b82d37193637" Pattern="&quot;{9D192AFB-45B8-4D02-A041-4C105FC5ADA2}&quot;">
+					<Wire Id="8d2457082c074593a52177aecc6f4fba" Joints="N(61ed5007f48543589edfc373f5f18327:fb4b0d90fce44926a178b82d37193637)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:fb4b0d90fce44926a178b82d37193637)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="61962eb8168a473284656db314b7c738" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Egg dishes and desserts Scrambled \neggs WA82"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="1706ad306f884c848ae6467b2ab486b5" Joints="N(61962eb8168a473284656db314b7c738:Out)|(421,35) N(736acb746584411bb7f309340d574610:fb4b0d90fce44926a178b82d37193637)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="b4e6058fed5847a6b3fb6cbacd269583" Pattern="&quot;{2625CA6C-E1D8-44C2-AA3B-207080DA68A9}&quot;">
+					<Wire Id="bd0e6d3743a441d592cee045303fcb06" Joints="N(61ed5007f48543589edfc373f5f18327:b4e6058fed5847a6b3fb6cbacd269583)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:b4e6058fed5847a6b3fb6cbacd269583)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="74706fa9ff924f17ba8434b7613c78a7" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Egg dishes and desserts Roast nuts WA82</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="bc2496902c6641a69e399ba3fd538439" Joints="N(74706fa9ff924f17ba8434b7613c78a7:Out)|(421,35) N(736acb746584411bb7f309340d574610:b4e6058fed5847a6b3fb6cbacd269583)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="e47fe97217ef4853816fed70290299a1" Pattern="&quot;{00B6654E-672C-4D9C-9AC7-8CFDA3C59347}&quot;">
+					<Wire Id="793cff27e57545d6b4093e43c391d51c" Joints="N(61ed5007f48543589edfc373f5f18327:e47fe97217ef4853816fed70290299a1)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:e47fe97217ef4853816fed70290299a1)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="6e390103f80d4b97877e6f624cec1095" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Egg dishes and desserts Crepes \nWA82"</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="c2dc94f3003f4a64be5bce3f79d82713" Joints="N(6e390103f80d4b97877e6f624cec1095:Out)|(421,35) N(736acb746584411bb7f309340d574610:e47fe97217ef4853816fed70290299a1)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="b3ab97fe47a44efaa6b289e2537b0ac1" Pattern="&quot;{E4F37828-8746-4F63-9C0D-65F6CA02EFFA}&quot;">
+					<Wire Id="b52153e17b6c464dbf8b58c39fa2258d" Joints="N(61ed5007f48543589edfc373f5f18327:b3ab97fe47a44efaa6b289e2537b0ac1)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:b3ab97fe47a44efaa6b289e2537b0ac1)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="3b4cd238df9f488295bb4f4a8f5189e4" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Meat Stir Fry</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="d1dd32ae96db4b2abc7152b4141e1b94" Joints="N(3b4cd238df9f488295bb4f4a8f5189e4:Out)|(421,35) N(736acb746584411bb7f309340d574610:b3ab97fe47a44efaa6b289e2537b0ac1)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="a34c33d385aa47aaa9e75b3f39ef23e0" Pattern="&quot;{8D4DE10D-484A-4A6C-9232-5DDA5618E590}&quot;">
+					<Wire Id="4aad031d3b2346659defa9344f57454e" Joints="N(61ed5007f48543589edfc373f5f18327:a34c33d385aa47aaa9e75b3f39ef23e0)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:a34c33d385aa47aaa9e75b3f39ef23e0)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="1e1242ff0aef4a79acd7be16811e454e" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Fish Stir Fry</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="92aa53a9d4874a6a81569e9fe4aac8a1" Joints="N(1e1242ff0aef4a79acd7be16811e454e:Out)|(421,35) N(736acb746584411bb7f309340d574610:a34c33d385aa47aaa9e75b3f39ef23e0)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 535 100" Id="d7a572db152248139a0cc8a3d7ef4b74" Pattern="&quot;{A72468FC-43BB-431A-AB51-EC8D5A7C5379}&quot;">
+					<Wire Id="71bc66897a534f7a9a4372471236cb30" Joints="N(61ed5007f48543589edfc373f5f18327:d7a572db152248139a0cc8a3d7ef4b74)|(4,35) h(41) v(-15) N(a3e28b2bb483486abc61a7ba58a83ceb:d7a572db152248139a0cc8a3d7ef4b74)|(531,20)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="175 30 246 30" DataType="String" Id="781d020bf125468da74f40e74f2c175e" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Stir Fry side dishes</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="3f1007ed0d6542f8853abb83d5abfcfb" Joints="N(781d020bf125468da74f40e74f2c175e:Out)|(421,35) N(736acb746584411bb7f309340d574610:d7a572db152248139a0cc8a3d7ef4b74)|(531,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 20 13 10" Docking="Left" Id="13b127d89b2740b88f21cdc9467d7fb2" Terminals="f405f0f05e6549bcaa4f1283fc796fab=a7008ed9c68c45778486444bd3385ff2, 9f72a3ad520a43b3ad614d9a3ddf4671, 6f9174b53e6243e698c2f7146fd00f98, 50c663a36642418ab9c0347f090cc35e, 7ba6486a56d64f019200d2b97a47611a, cf12e348886e42ca83e3194a6f028ff3, 1ea4807a6624c7ead697591295d5056, e6824f688a644667bfdead4833dae2fb, 6f202721c5af4c90ab89893b88295654, 4876bf5226584619879f0036e2954591, 1598910c6e7c4e74895fdd80675ac3b1, 3564ef6fe839496188dd72d7c0b0c103, e143d3ee905848e39551ee97309ebc84, c7f249ffbc3146d78fd314aa9efdefd6, 10b9f5c987434ce19f4003fdf2d30e07, 3475b4996b174cf09701b033dfeb4eae, 4b768a17e9a34e8b86d8a41c4ea9daae, 982a7fb6f3c5485fb89880f8cb6b6723, a723b2090b4d48548abae12d67415a79, 5ca294b224ee49f48cd1c21fe4c2d60b, 3844a749baa34c5aaf5a1339d1829411, e631b7b11cb040c9a76a36b9a9bc2c09, 17c19309c3d4498381595af421958e3d, 7ecc96df03c84130a15c21ef5370ca73, 3317d1fa9fca46b0bcda8a0f18f8f6ac, 2d615d23f01d455d875c64ecbd430de4, 533dbc46397740788968e9881bd0b7e1, 9635d71fb6ab4050bdc8c8448cb8f60f, 3717e0c2de064e5ba9f131b8d35e29ce, f893a750e6a34e83becaa07c599cad13, 5a6e90b3600345baa61e6881fefe112e, 151bddcc801645049ad8cfdfd62d2130, e9ed10313a1a4538b7b8e56eb6c4dc8f, 1f36652df4684ffc84cf9992408617fa, 2f86c40858014978856844a52ec9bf3e, 969fad3b803a4bcc836f815282bbb6cf, f4d9d610f50e495a955b3ade860fa8e3, b5aa8caf2b614c279b3ec487bf23e2c1, 9eed92298a4b4d57bf32fc346700eac5, 3417c55a01f342ecaa7b97b0da2cef00, 40ba2584ea304f5b809c80c2d31f802f, 9fce9c178cb847e9b052015d9067835a, 507c6fd4bac940839b5363375b480a89, 5e0f788db3c34998bb96b40734ea006b, 7fd1468a5f8c4b469513f0a01b69a585, fcfbc459d2d14ffaa2c3d43f58fd282c, ea741a914a1547a982defa6ee194d1e4, e2dfc900529c4b6fbfc991ed14e855af, f9b7b391ac8d44f086f939723fc78e52, c231e3319d3a4888ab542c3e689dd2b7, 2fe25ba6673a430dae802a763c83c956, 32f4f6f7838c41ac8ff954d3c8500ba6, d75731440b514c64895956c5e72b1619, 5bbe047394804818b889fb064eb33f2a, 351fa3240a09429facffff843426daae, ef7847c39024423dbe34a9e17f5c07b1, e5c6af7ed96047c29ce497b6d0ddc8cf, 73e16ab1063348dfb870df57c332c3f6, c4a6230263904258a43313144632d36f, 499cfa82f25473d9fbc1e9f4ad7ce00, 1dd7a627118d47bcb7d5841f89d4b77f, 4e57b4c7d0814482898fb1e5811697d6, da4b1df5a9cb45639ae64551481d4801, 75afaf0ee67143cd9723288b85427760, 335e05b6c5b942d68b8941f8f3ba7503, c29317c216984f12b746265a8bcbf252, d8ee073f2a34c0288220cc721c5af97, ae50a55570ed4b22bf427c62b769023d, a462cf89c64b4d93b39a91d98a08230e, a1afbab418a6407aa93cecc28569bc32, e662c76abcd44f9ca6593a0f6be19004, a9418e6cfe3498f9f8619518e07384a, d21d984df78140a98bf5d2e3c340dab2, 5a62acc15f3c473086b87813f9599f4d, f826b845855e42c09ba9e8d5f5ea750a, 62a810b2ce0e44a2a0feb943fee873c9, ac7aadae7f514f328aeb00db6bc12738, 715672c7362a4a59aefb1b4ef02e1016, bec38f4452214b21bbfc23b34604e2c4, aeb2d22056cd46728da4a458c0ac3f30, 4a6940d035f1484988b6969d4a4bb001, 8897b286997744bb800c2dfc05df8ac4, e11eb4c07b954b80a5b7d68a27150ea1, 28bc250b04c141c79c72f035222625c4, 7cacf545d9a4543adadbfe2dd8ec715, 3b4a26188f1a4fef8b296feba5a3d7ed, 2f3d586deede4ba281ec023166f803d0, 15076299774e4ab88a6226c4d88069b8, b23a24e8d2574aa3a70f25cdf959ccc9, 7425c4d48a3f4ff7acf51584d2a67e3f, d49aaca4b8bb456b821af3b69b05d82c, cc90073bf807465a83d064e3d66ebb80, 5af49479529c4fdab1c299dfc75965f3, fb4b0d90fce44926a178b82d37193637, b4e6058fed5847a6b3fb6cbacd269583, e47fe97217ef4853816fed70290299a1, b3ab97fe47a44efaa6b289e2537b0ac1, a34c33d385aa47aaa9e75b3f39ef23e0, d7a572db152248139a0cc8a3d7ef4b74, af15bfb32c3843b683ef5902694beb85" />
+				<CaseStructure.Tunnel Bounds="536 35 13 10" Docking="Right" Id="736acb746584411bb7f309340d574610" Terminals="f405f0f05e6549bcaa4f1283fc796fab=1bdcc9d135144090b44d79622891aa50, 9f72a3ad520a43b3ad614d9a3ddf4671=d2ac3f580fa7444ebb4bfb74ee74f8da, 6f9174b53e6243e698c2f7146fd00f98=ab19fdf0e63f4072aa09e9aa36c9c19f, 50c663a36642418ab9c0347f090cc35e=a88a88df58744ba896ec0ce75b425241, 7ba6486a56d64f019200d2b97a47611a=5e4168c738634b5a9526acea89184811, cf12e348886e42ca83e3194a6f028ff3=8553468a815e46b0a68ef8889bcde127, 1ea4807a6624c7ead697591295d5056=d8d3d3692a9d4dce811c8a6488fc07f8, e6824f688a644667bfdead4833dae2fb=cad50c8e660c44cb9d03d99d4398ca66, 6f202721c5af4c90ab89893b88295654=a41f7c4edfa147119c3f0aa53e453474, 4876bf5226584619879f0036e2954591=6df248eca5a24a94a304fa67a7abd9f0, 1598910c6e7c4e74895fdd80675ac3b1=1fca915a93894c3ca09a1982681ccb95, 3564ef6fe839496188dd72d7c0b0c103=3ee415ed10bf42b58f4b0c1dac2a6ab4, e143d3ee905848e39551ee97309ebc84=8443c0cc99cc4558b57493f4e12c14d6, c7f249ffbc3146d78fd314aa9efdefd6=5a1472fcce564e5e9ac5a3467fe33aae, 10b9f5c987434ce19f4003fdf2d30e07=2b57bb8ff6b44c7a7180859a57df8f0, 3475b4996b174cf09701b033dfeb4eae=a67a4b8e9bc248b1889aea1b73b43eca, 4b768a17e9a34e8b86d8a41c4ea9daae=4e12464f6ff649b28257b6e89cd87f42, 982a7fb6f3c5485fb89880f8cb6b6723=88384e72a04f44e6affc5f2860190c77, a723b2090b4d48548abae12d67415a79=ab1f47c9fa22459dbd9d7d0d81b92ef3, 5ca294b224ee49f48cd1c21fe4c2d60b=1b8bb9f21f234ac2b3c16e4bd4527bdd, 3844a749baa34c5aaf5a1339d1829411=ad0c919c39734205ad9c30ab54de05e8, e631b7b11cb040c9a76a36b9a9bc2c09=3ca36bd37544499cae0ecf0d43efcda7, 17c19309c3d4498381595af421958e3d=4fd6b84fea17480b99ec1375e10bcafd, 7ecc96df03c84130a15c21ef5370ca73=55ef5e306fda4363b54d5d66b2076e46, 3317d1fa9fca46b0bcda8a0f18f8f6ac=3071b03ad4d241589c2fe654b3319131, 2d615d23f01d455d875c64ecbd430de4=a506c4ba263e4f029bc9423664cc1e5d, 533dbc46397740788968e9881bd0b7e1=75c1e4b3c5364d4bb60a2d74ed91d108, 9635d71fb6ab4050bdc8c8448cb8f60f=a3cfa3fb94554511b9591f18b855684a, 3717e0c2de064e5ba9f131b8d35e29ce=6f84ae04ac3e4f39b541e28962b2199b, f893a750e6a34e83becaa07c599cad13=99977e7534dd422eb2abe756c1772d9f, 5a6e90b3600345baa61e6881fefe112e=66de314d7ea14efead297287563d5030, 151bddcc801645049ad8cfdfd62d2130=10fea69b82644bd7b7e6d5e833e49bec, e9ed10313a1a4538b7b8e56eb6c4dc8f=13e56e91103f49b39bcf1010ab66e28e, 1f36652df4684ffc84cf9992408617fa=a71aa6b0946c414680c1c22ed4ca223e, 2f86c40858014978856844a52ec9bf3e=742172323ed24ffb9e121b4c85626475, 969fad3b803a4bcc836f815282bbb6cf=5133a0858d784244a024146cdb721cfc, f4d9d610f50e495a955b3ade860fa8e3=5e3816cae50c4aaca8ac1951e9734769, b5aa8caf2b614c279b3ec487bf23e2c1=f71f4e31a3f042cd9846cad45e9c4570, 9eed92298a4b4d57bf32fc346700eac5=1ffc7e5ed5c244ccbec9da8d71cb14b9, 3417c55a01f342ecaa7b97b0da2cef00=7643b940cd074c9ebea0cf0b9d572601, 40ba2584ea304f5b809c80c2d31f802f=a13a16d229b84a98850ce9e1142d2a16, 9fce9c178cb847e9b052015d9067835a=c4a9514df24341d599077801831c9082, 507c6fd4bac940839b5363375b480a89=77f13d3c403e40d1b288fda31f4ec858, 5e0f788db3c34998bb96b40734ea006b=ae0691cb5d64433d93db05894d801252, 7fd1468a5f8c4b469513f0a01b69a585=7588197a905d42bf93ce4d93e8134f57, fcfbc459d2d14ffaa2c3d43f58fd282c=f8a10cd9678c42468cd395c25f8e960f, ea741a914a1547a982defa6ee194d1e4=e3023240f3a44c03a33b7dc44d328318, e2dfc900529c4b6fbfc991ed14e855af=95cd37a325474cda9279fa7d064c4aa8, f9b7b391ac8d44f086f939723fc78e52=4fd83fbdc1ff407091ad91ef63387bc3, c231e3319d3a4888ab542c3e689dd2b7=757e801cee654cb4ab1d7504bc0a4bca, 2fe25ba6673a430dae802a763c83c956=f192166d47a94ed1a333e3475a63e2ce, 32f4f6f7838c41ac8ff954d3c8500ba6=fb031666387b4cb58875f6334f7d73fa, d75731440b514c64895956c5e72b1619=2498e6b34989440fa1c9e69fdc54e84b, 5bbe047394804818b889fb064eb33f2a=666b0b36c237404fa888ccdf9d7b2e56, 351fa3240a09429facffff843426daae=fc818c0ef9a64ac88987f2f1b38b0fd9, ef7847c39024423dbe34a9e17f5c07b1=382d10e1977b41cbb2313fdb32a8e826, e5c6af7ed96047c29ce497b6d0ddc8cf=b4cb4a4fdf2844b1bee35e441c81b0b9, 73e16ab1063348dfb870df57c332c3f6=64f5e90dc24942b082ca5b554ae47eb4, c4a6230263904258a43313144632d36f=92020eedbe674affa53a1cd668a055aa, 499cfa82f25473d9fbc1e9f4ad7ce00=318bcae0071a4bdfa62de2cae5d6e0e3, 1dd7a627118d47bcb7d5841f89d4b77f=a4411a5c47d54d11bc3dbd8ce0e603b7, 4e57b4c7d0814482898fb1e5811697d6=5253da132c504824a8a00870ba9568d4, da4b1df5a9cb45639ae64551481d4801=afef625edc574854a9c0668e57f90c2e, 75afaf0ee67143cd9723288b85427760=b7be44b7836443ada40d937057bcca08, 335e05b6c5b942d68b8941f8f3ba7503=5f6b806bebd147438a609652f5a11a6a, c29317c216984f12b746265a8bcbf252=233e7e8381884c44b6a8c6555081c4b8, d8ee073f2a34c0288220cc721c5af97=f686d2165aad4b8681564968482f5531, ae50a55570ed4b22bf427c62b769023d=e2891f5edece427fa1bd8cd34971027c, a462cf89c64b4d93b39a91d98a08230e=4cd0d698183d4774ac769b3a8b1be78f, a1afbab418a6407aa93cecc28569bc32=2abc975fea1b4270818372af782588a0, e662c76abcd44f9ca6593a0f6be19004=ff5ceed0111e4f50bd882d3c2ea60dcb, a9418e6cfe3498f9f8619518e07384a=37a0f46f18d544a5bd551e33e8f630b6, d21d984df78140a98bf5d2e3c340dab2=2c7a940dcd174bca97d6620a27b27a88, 5a62acc15f3c473086b87813f9599f4d=e9a439377b0449468707c6ecab572631, f826b845855e42c09ba9e8d5f5ea750a=99259f65f6dc484bb97facf8a7e09ff2, 62a810b2ce0e44a2a0feb943fee873c9=352648d952c04076bea1ab95c61419bd, ac7aadae7f514f328aeb00db6bc12738=dbc148a074e545d687fc4cc02edd67f3, 715672c7362a4a59aefb1b4ef02e1016=af529be32f3b47eb87f9d89862ea1dd0, bec38f4452214b21bbfc23b34604e2c4=cc76bcefd5cd45e5b1bdb157bcbc204d, aeb2d22056cd46728da4a458c0ac3f30=34664e6120f942c5abc46425640e38b6, 4a6940d035f1484988b6969d4a4bb001=475a751b5b964cdea84b3d0aedd224fa, 8897b286997744bb800c2dfc05df8ac4=fcb6ed53e2184c3587a253e6b52c4001, e11eb4c07b954b80a5b7d68a27150ea1=288377ef9c8c4fc681f475a680989a08, 28bc250b04c141c79c72f035222625c4=ebc9aadbe5e943afb4aecf9fcfe8f46a, 7cacf545d9a4543adadbfe2dd8ec715=e3373161859c435f8863d6dd39a2cfe4, 3b4a26188f1a4fef8b296feba5a3d7ed=536658b967f54ba6b3a581229656dd76, 2f3d586deede4ba281ec023166f803d0=80ea1452c24c431ab665bfd82a2cbcc0, 15076299774e4ab88a6226c4d88069b8=b8fce2d805314fafb5db1f3c9e683bfe, b23a24e8d2574aa3a70f25cdf959ccc9=939d7902c7444892b1d07a58e6dd576e, 7425c4d48a3f4ff7acf51584d2a67e3f=5da043a884194e9c9276e8570f2ecdb7, d49aaca4b8bb456b821af3b69b05d82c=61e31eaae5ef4ca88874e2c37d7ed3e6, cc90073bf807465a83d064e3d66ebb80=78b49c1933e64263a949d985957fbf2e, 5af49479529c4fdab1c299dfc75965f3=6812f92a246d458ca2d42f819dde1cb3, fb4b0d90fce44926a178b82d37193637=1706ad306f884c848ae6467b2ab486b5, b4e6058fed5847a6b3fb6cbacd269583=bc2496902c6641a69e399ba3fd538439, e47fe97217ef4853816fed70290299a1=c2dc94f3003f4a64be5bce3f79d82713, b3ab97fe47a44efaa6b289e2537b0ac1=d1dd32ae96db4b2abc7152b4141e1b94, a34c33d385aa47aaa9e75b3f39ef23e0=92aa53a9d4874a6a81569e9fe4aac8a1, d7a572db152248139a0cc8a3d7ef4b74=3f1007ed0d6542f8853abb83d5abfcfb, af15bfb32c3843b683ef5902694beb85=5d103f309871408b93c3c4161261409a" />
+				<CaseStructure.Tunnel Bounds="536 20 13 10" Docking="Right" Id="a3e28b2bb483486abc61a7ba58a83ceb" Terminals="f405f0f05e6549bcaa4f1283fc796fab=aa31540dead744699830495fe821c280, 9f72a3ad520a43b3ad614d9a3ddf4671=2f96411eba948468efe18aa5a1bcd57, 6f9174b53e6243e698c2f7146fd00f98=acb7719e00d443b7aade8ce61d1e9725, 50c663a36642418ab9c0347f090cc35e=6d9a615a17234a6a96a7036ec91bb03e, 7ba6486a56d64f019200d2b97a47611a=83c3010e0ff64874bf9ec9eb7a931f62, cf12e348886e42ca83e3194a6f028ff3=1f6e43deb713455884022d58ddf7f73f, 1ea4807a6624c7ead697591295d5056=af4054336dad4fa888fb4a89d871de33, e6824f688a644667bfdead4833dae2fb=8038cda67ff948d28c82663558c71a60, 6f202721c5af4c90ab89893b88295654=f1b954d2d1ef4d719b24aa820f7f27f5, 4876bf5226584619879f0036e2954591=5203888a3c554ee8a732f35b74ec4c94, 1598910c6e7c4e74895fdd80675ac3b1=bc4c46aad29646edace0db061ceb4521, 3564ef6fe839496188dd72d7c0b0c103=530574003ad245b7a2729420a0aa6750, e143d3ee905848e39551ee97309ebc84=e2f9c72dccd4434fa70fde3cdc05eb76, c7f249ffbc3146d78fd314aa9efdefd6=bc6ae70dbd1c4d6dbe8bd0f4a26f674b, 10b9f5c987434ce19f4003fdf2d30e07=13039e00a4784366aef65e0c646ecf58, 3475b4996b174cf09701b033dfeb4eae=652bae7f2312480d975bf2a09e67ea22, 4b768a17e9a34e8b86d8a41c4ea9daae=e605c9df47f04fe2af8b3da3678647f7, 982a7fb6f3c5485fb89880f8cb6b6723=53ca9ccd06324e86b32f241fd18546f8, a723b2090b4d48548abae12d67415a79=4a2800cd756a485ea6ea2a47a6677dce, 5ca294b224ee49f48cd1c21fe4c2d60b=820310e63322410f910b1fd183699eda, 3844a749baa34c5aaf5a1339d1829411=8297176be00c4656ad17b0c869323619, e631b7b11cb040c9a76a36b9a9bc2c09=878727e091dd4914a9192faa2e09be4e, 17c19309c3d4498381595af421958e3d=bbc0dc32458b433a8f62b1493f34b028, 7ecc96df03c84130a15c21ef5370ca73=79f77c01f2d845619249baa34db0bf37, 3317d1fa9fca46b0bcda8a0f18f8f6ac=817a53d4d4b24705b010b9e13d06f676, 2d615d23f01d455d875c64ecbd430de4=9722c8ba3aad40f29cc451f69d977b10, 533dbc46397740788968e9881bd0b7e1=fb88ca5aa01643ada568a26bd96e3b40, 9635d71fb6ab4050bdc8c8448cb8f60f=4c3767431c0c41b4aba807403e12ebcf, 3717e0c2de064e5ba9f131b8d35e29ce=2f1254397a0944248a5e091a9ab59e09, f893a750e6a34e83becaa07c599cad13=9f59c7627f3b4a8bb7d72c2525484552, 5a6e90b3600345baa61e6881fefe112e=6147e2448b774b74b351502ae18ad7fd, 151bddcc801645049ad8cfdfd62d2130=c5a6bf3344bd46d99e2ac8f9e601754b, e9ed10313a1a4538b7b8e56eb6c4dc8f=dcaf7edc56bc4c12adcf3b7f470c6614, 1f36652df4684ffc84cf9992408617fa=2414dd6fec8346f78b6e5cce97690fb1, 2f86c40858014978856844a52ec9bf3e=aa1abc1be5454e998d529348fda21fb3, 969fad3b803a4bcc836f815282bbb6cf=6be2c468fce94b5f97bde594ed67e6dd, f4d9d610f50e495a955b3ade860fa8e3=2b1497cd1584446b8e6c41242399b332, b5aa8caf2b614c279b3ec487bf23e2c1=d7943b3e34f1443d80af916e0b82fdd2, 9eed92298a4b4d57bf32fc346700eac5=35624b9144b74149b7c05e6a4d8a7659, 3417c55a01f342ecaa7b97b0da2cef00=4f6a7e5ca33f4f8dac8ae194da5558fb, 40ba2584ea304f5b809c80c2d31f802f=ef2ad4a31d0472ca74bf005bc4e77ad, 9fce9c178cb847e9b052015d9067835a=d99dae713ac84100b0a063c5d6478cd0, 507c6fd4bac940839b5363375b480a89=72924a619941416ab2e61d5de4405949, 5e0f788db3c34998bb96b40734ea006b=c84bd14a020a42cdb64727bb20f7af42, 7fd1468a5f8c4b469513f0a01b69a585=1f8dad0b50dc4b77ac638ca30f80a2e7, fcfbc459d2d14ffaa2c3d43f58fd282c=282e0c62d9bb433eadc5f678674c0118, ea741a914a1547a982defa6ee194d1e4=f7702115f8b1407e8f1ffb1d89ee8b40, e2dfc900529c4b6fbfc991ed14e855af=3f50c5156b75435fadcc57f66fd9ab48, f9b7b391ac8d44f086f939723fc78e52=754e15e665154de5aaa2e9f1c8b5c428, c231e3319d3a4888ab542c3e689dd2b7=852faa4846a64cdca0e49c9a47e36685, 2fe25ba6673a430dae802a763c83c956=eaf3a7c437c948a693bd827bcda1e1d6, 32f4f6f7838c41ac8ff954d3c8500ba6=f7b03b8a085e4108874bcb424eba7cce, d75731440b514c64895956c5e72b1619=8d17b8aa29e14b71a895c74b592c38b7, 5bbe047394804818b889fb064eb33f2a=c14cdf909ecc432d8e450b6d12c1cf01, 351fa3240a09429facffff843426daae=a63ea2666ece4ef7942a00155a3cf441, ef7847c39024423dbe34a9e17f5c07b1=ab850d533f7a4daca0b59776eab1c53c, e5c6af7ed96047c29ce497b6d0ddc8cf=3fa29ffe82c64cd5aa4a20ad36df1757, 73e16ab1063348dfb870df57c332c3f6=86fdd933ede947979fc06cd8a5e56307, c4a6230263904258a43313144632d36f=810f3f212f5d4f28bbff36ef3c76570d, 499cfa82f25473d9fbc1e9f4ad7ce00=6b47792811cb461a840a52afc2b2ecac, 1dd7a627118d47bcb7d5841f89d4b77f=bdbac9ab96ea4ef8b3cfa21cdfb5054f, 4e57b4c7d0814482898fb1e5811697d6=3545e3628e68432289aa796402c89018, da4b1df5a9cb45639ae64551481d4801=914389d5cb87403b9bd4f06512b0c473, 75afaf0ee67143cd9723288b85427760=f3ef772d696d49acb43e8af487a11a49, 335e05b6c5b942d68b8941f8f3ba7503=18f313d8af4e4d5e89f96e91a37f63fb, c29317c216984f12b746265a8bcbf252=331f03073e154037b191c12861839dfb, d8ee073f2a34c0288220cc721c5af97=46acea4fdb604343a4c175c4e06f7d14, ae50a55570ed4b22bf427c62b769023d=86fe9a3b8fdc496bb3fc5ec8994b3ac9, a462cf89c64b4d93b39a91d98a08230e=e3f4b86ba20b4873ac1d9e126741e166, a1afbab418a6407aa93cecc28569bc32=d5522e85b61d43fc84ab6704ad6770ee, e662c76abcd44f9ca6593a0f6be19004=9f005de2e9464d11ae2715623bae7820, a9418e6cfe3498f9f8619518e07384a=9c9a23dea6e7475c85d0be51de7337a1, d21d984df78140a98bf5d2e3c340dab2=49fb44ca193144f3a4e969e914e133c7, 5a62acc15f3c473086b87813f9599f4d=6ff536f9bbeb48bfb0ba1182ed8110a6, f826b845855e42c09ba9e8d5f5ea750a=9eaf1de3ca6f450d919b9ac668f6c502, 62a810b2ce0e44a2a0feb943fee873c9=929f2505e75840f99e2fd81c032a7e22, ac7aadae7f514f328aeb00db6bc12738=171c077e81f74af39cb835e90a1cdf9b, 715672c7362a4a59aefb1b4ef02e1016=1e6c266365d1476e9d17f53d750ad219, bec38f4452214b21bbfc23b34604e2c4=30820774ade147d4a52159711a472028, aeb2d22056cd46728da4a458c0ac3f30=ec45de664fbc462d86038d08ef9b18a2, 4a6940d035f1484988b6969d4a4bb001=632a1e83c7864435842f4bd4960fdff8, 8897b286997744bb800c2dfc05df8ac4=7081186a09654c6eb3ccecdb40b64b0e, e11eb4c07b954b80a5b7d68a27150ea1=60fc18e826ac4c27afd4fa0ba480bfb0, 28bc250b04c141c79c72f035222625c4=60e03d48cdf647aa831f19cd1c2d7bfd, 7cacf545d9a4543adadbfe2dd8ec715=6a1afd16b1a94f59b4018a357fe0e751, 3b4a26188f1a4fef8b296feba5a3d7ed=d07afbd5485d40499530e6fcdcf75d35, 2f3d586deede4ba281ec023166f803d0=3c6290e1e3594b428ec76781019fe16e, 15076299774e4ab88a6226c4d88069b8=11625474f2bd40718919500cb7d2615a, b23a24e8d2574aa3a70f25cdf959ccc9=699c65a084204131967c3b86a9423200, 7425c4d48a3f4ff7acf51584d2a67e3f=66e8075131434bfeb29ebdf11a4fe46e, d49aaca4b8bb456b821af3b69b05d82c=740e66ec0ad4b4d8f637ee4d203a759, cc90073bf807465a83d064e3d66ebb80=c2a38c1e379d459aa11828e27bee1ba8, 5af49479529c4fdab1c299dfc75965f3=fcc20469a85c4852a76d073a46552741, fb4b0d90fce44926a178b82d37193637=8d2457082c074593a52177aecc6f4fba, b4e6058fed5847a6b3fb6cbacd269583=bd0e6d3743a441d592cee045303fcb06, e47fe97217ef4853816fed70290299a1=793cff27e57545d6b4093e43c391d51c, b3ab97fe47a44efaa6b289e2537b0ac1=b52153e17b6c464dbf8b58c39fa2258d, a34c33d385aa47aaa9e75b3f39ef23e0=4aad031d3b2346659defa9344f57454e, d7a572db152248139a0cc8a3d7ef4b74=71bc66897a534f7a9a4372471236cb30, af15bfb32c3843b683ef5902694beb85=b379fa776af449048f2f8a21f9d7623a" />
+				<CaseStructure.Tunnel Bounds="-4 35 13 10" Docking="Left" Id="61ed5007f48543589edfc373f5f18327" Terminals="f405f0f05e6549bcaa4f1283fc796fab=e0d592de41c04f94986e5ae4bea2f36a, 9f72a3ad520a43b3ad614d9a3ddf4671=2f96411eba948468efe18aa5a1bcd57, 6f9174b53e6243e698c2f7146fd00f98=acb7719e00d443b7aade8ce61d1e9725, 50c663a36642418ab9c0347f090cc35e=6d9a615a17234a6a96a7036ec91bb03e, 7ba6486a56d64f019200d2b97a47611a=83c3010e0ff64874bf9ec9eb7a931f62, cf12e348886e42ca83e3194a6f028ff3=1f6e43deb713455884022d58ddf7f73f, 1ea4807a6624c7ead697591295d5056=af4054336dad4fa888fb4a89d871de33, e6824f688a644667bfdead4833dae2fb=8038cda67ff948d28c82663558c71a60, 6f202721c5af4c90ab89893b88295654=f1b954d2d1ef4d719b24aa820f7f27f5, 4876bf5226584619879f0036e2954591=5203888a3c554ee8a732f35b74ec4c94, 1598910c6e7c4e74895fdd80675ac3b1=bc4c46aad29646edace0db061ceb4521, 3564ef6fe839496188dd72d7c0b0c103=530574003ad245b7a2729420a0aa6750, e143d3ee905848e39551ee97309ebc84=e2f9c72dccd4434fa70fde3cdc05eb76, c7f249ffbc3146d78fd314aa9efdefd6=bc6ae70dbd1c4d6dbe8bd0f4a26f674b, 10b9f5c987434ce19f4003fdf2d30e07=13039e00a4784366aef65e0c646ecf58, 3475b4996b174cf09701b033dfeb4eae=652bae7f2312480d975bf2a09e67ea22, 4b768a17e9a34e8b86d8a41c4ea9daae=e605c9df47f04fe2af8b3da3678647f7, 982a7fb6f3c5485fb89880f8cb6b6723=53ca9ccd06324e86b32f241fd18546f8, a723b2090b4d48548abae12d67415a79=4a2800cd756a485ea6ea2a47a6677dce, 5ca294b224ee49f48cd1c21fe4c2d60b=820310e63322410f910b1fd183699eda, 3844a749baa34c5aaf5a1339d1829411=8297176be00c4656ad17b0c869323619, e631b7b11cb040c9a76a36b9a9bc2c09=878727e091dd4914a9192faa2e09be4e, 17c19309c3d4498381595af421958e3d=bbc0dc32458b433a8f62b1493f34b028, 7ecc96df03c84130a15c21ef5370ca73=79f77c01f2d845619249baa34db0bf37, 3317d1fa9fca46b0bcda8a0f18f8f6ac=817a53d4d4b24705b010b9e13d06f676, 2d615d23f01d455d875c64ecbd430de4=9722c8ba3aad40f29cc451f69d977b10, 533dbc46397740788968e9881bd0b7e1=fb88ca5aa01643ada568a26bd96e3b40, 9635d71fb6ab4050bdc8c8448cb8f60f=4c3767431c0c41b4aba807403e12ebcf, 3717e0c2de064e5ba9f131b8d35e29ce=2f1254397a0944248a5e091a9ab59e09, f893a750e6a34e83becaa07c599cad13=9f59c7627f3b4a8bb7d72c2525484552, 5a6e90b3600345baa61e6881fefe112e=6147e2448b774b74b351502ae18ad7fd, 151bddcc801645049ad8cfdfd62d2130=c5a6bf3344bd46d99e2ac8f9e601754b, e9ed10313a1a4538b7b8e56eb6c4dc8f=dcaf7edc56bc4c12adcf3b7f470c6614, 1f36652df4684ffc84cf9992408617fa=2414dd6fec8346f78b6e5cce97690fb1, 2f86c40858014978856844a52ec9bf3e=aa1abc1be5454e998d529348fda21fb3, 969fad3b803a4bcc836f815282bbb6cf=6be2c468fce94b5f97bde594ed67e6dd, f4d9d610f50e495a955b3ade860fa8e3=2b1497cd1584446b8e6c41242399b332, b5aa8caf2b614c279b3ec487bf23e2c1=d7943b3e34f1443d80af916e0b82fdd2, 9eed92298a4b4d57bf32fc346700eac5=35624b9144b74149b7c05e6a4d8a7659, 3417c55a01f342ecaa7b97b0da2cef00=4f6a7e5ca33f4f8dac8ae194da5558fb, 40ba2584ea304f5b809c80c2d31f802f=ef2ad4a31d0472ca74bf005bc4e77ad, 9fce9c178cb847e9b052015d9067835a=d99dae713ac84100b0a063c5d6478cd0, 507c6fd4bac940839b5363375b480a89=72924a619941416ab2e61d5de4405949, 5e0f788db3c34998bb96b40734ea006b=c84bd14a020a42cdb64727bb20f7af42, 7fd1468a5f8c4b469513f0a01b69a585=1f8dad0b50dc4b77ac638ca30f80a2e7, fcfbc459d2d14ffaa2c3d43f58fd282c=282e0c62d9bb433eadc5f678674c0118, ea741a914a1547a982defa6ee194d1e4=f7702115f8b1407e8f1ffb1d89ee8b40, e2dfc900529c4b6fbfc991ed14e855af=3f50c5156b75435fadcc57f66fd9ab48, f9b7b391ac8d44f086f939723fc78e52=754e15e665154de5aaa2e9f1c8b5c428, c231e3319d3a4888ab542c3e689dd2b7=852faa4846a64cdca0e49c9a47e36685, 2fe25ba6673a430dae802a763c83c956=eaf3a7c437c948a693bd827bcda1e1d6, 32f4f6f7838c41ac8ff954d3c8500ba6=f7b03b8a085e4108874bcb424eba7cce, d75731440b514c64895956c5e72b1619=8d17b8aa29e14b71a895c74b592c38b7, 5bbe047394804818b889fb064eb33f2a=c14cdf909ecc432d8e450b6d12c1cf01, 351fa3240a09429facffff843426daae=a63ea2666ece4ef7942a00155a3cf441, ef7847c39024423dbe34a9e17f5c07b1=ab850d533f7a4daca0b59776eab1c53c, e5c6af7ed96047c29ce497b6d0ddc8cf=3fa29ffe82c64cd5aa4a20ad36df1757, 73e16ab1063348dfb870df57c332c3f6=86fdd933ede947979fc06cd8a5e56307, c4a6230263904258a43313144632d36f=810f3f212f5d4f28bbff36ef3c76570d, 499cfa82f25473d9fbc1e9f4ad7ce00=6b47792811cb461a840a52afc2b2ecac, 1dd7a627118d47bcb7d5841f89d4b77f=bdbac9ab96ea4ef8b3cfa21cdfb5054f, 4e57b4c7d0814482898fb1e5811697d6=3545e3628e68432289aa796402c89018, da4b1df5a9cb45639ae64551481d4801=914389d5cb87403b9bd4f06512b0c473, 75afaf0ee67143cd9723288b85427760=f3ef772d696d49acb43e8af487a11a49, 335e05b6c5b942d68b8941f8f3ba7503=18f313d8af4e4d5e89f96e91a37f63fb, c29317c216984f12b746265a8bcbf252=331f03073e154037b191c12861839dfb, d8ee073f2a34c0288220cc721c5af97=46acea4fdb604343a4c175c4e06f7d14, ae50a55570ed4b22bf427c62b769023d=86fe9a3b8fdc496bb3fc5ec8994b3ac9, a462cf89c64b4d93b39a91d98a08230e=e3f4b86ba20b4873ac1d9e126741e166, a1afbab418a6407aa93cecc28569bc32=d5522e85b61d43fc84ab6704ad6770ee, e662c76abcd44f9ca6593a0f6be19004=9f005de2e9464d11ae2715623bae7820, a9418e6cfe3498f9f8619518e07384a=9c9a23dea6e7475c85d0be51de7337a1, d21d984df78140a98bf5d2e3c340dab2=49fb44ca193144f3a4e969e914e133c7, 5a62acc15f3c473086b87813f9599f4d=6ff536f9bbeb48bfb0ba1182ed8110a6, f826b845855e42c09ba9e8d5f5ea750a=9eaf1de3ca6f450d919b9ac668f6c502, 62a810b2ce0e44a2a0feb943fee873c9=929f2505e75840f99e2fd81c032a7e22, ac7aadae7f514f328aeb00db6bc12738=171c077e81f74af39cb835e90a1cdf9b, 715672c7362a4a59aefb1b4ef02e1016=1e6c266365d1476e9d17f53d750ad219, bec38f4452214b21bbfc23b34604e2c4=30820774ade147d4a52159711a472028, aeb2d22056cd46728da4a458c0ac3f30=ec45de664fbc462d86038d08ef9b18a2, 4a6940d035f1484988b6969d4a4bb001=632a1e83c7864435842f4bd4960fdff8, 8897b286997744bb800c2dfc05df8ac4=7081186a09654c6eb3ccecdb40b64b0e, e11eb4c07b954b80a5b7d68a27150ea1=60fc18e826ac4c27afd4fa0ba480bfb0, 28bc250b04c141c79c72f035222625c4=60e03d48cdf647aa831f19cd1c2d7bfd, 7cacf545d9a4543adadbfe2dd8ec715=6a1afd16b1a94f59b4018a357fe0e751, 3b4a26188f1a4fef8b296feba5a3d7ed=d07afbd5485d40499530e6fcdcf75d35, 2f3d586deede4ba281ec023166f803d0=3c6290e1e3594b428ec76781019fe16e, 15076299774e4ab88a6226c4d88069b8=11625474f2bd40718919500cb7d2615a, b23a24e8d2574aa3a70f25cdf959ccc9=699c65a084204131967c3b86a9423200, 7425c4d48a3f4ff7acf51584d2a67e3f=66e8075131434bfeb29ebdf11a4fe46e, d49aaca4b8bb456b821af3b69b05d82c=740e66ec0ad4b4d8f637ee4d203a759, cc90073bf807465a83d064e3d66ebb80=c2a38c1e379d459aa11828e27bee1ba8, 5af49479529c4fdab1c299dfc75965f3=fcc20469a85c4852a76d073a46552741, fb4b0d90fce44926a178b82d37193637=8d2457082c074593a52177aecc6f4fba, b4e6058fed5847a6b3fb6cbacd269583=bd0e6d3743a441d592cee045303fcb06, e47fe97217ef4853816fed70290299a1=793cff27e57545d6b4093e43c391d51c, b3ab97fe47a44efaa6b289e2537b0ac1=b52153e17b6c464dbf8b58c39fa2258d, a34c33d385aa47aaa9e75b3f39ef23e0=4aad031d3b2346659defa9344f57454e, d7a572db152248139a0cc8a3d7ef4b74=71bc66897a534f7a9a4372471236cb30, af15bfb32c3843b683ef5902694beb85=b379fa776af449048f2f8a21f9d7623a" />
+			</CaseStructure>
+			<Wire Id="a7008ed9c68c45778486444bd3385ff2" Joints="N(47bb8558537f417089b9ff21c584ba71:Value)|(165,245) N(13b127d89b2740b88f21cdc9467d7fb2:f405f0f05e6549bcaa4f1283fc796fab)|(191,245)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1bdcc9d135144090b44d79622891aa50" Joints="N(736acb746584411bb7f309340d574610:f405f0f05e6549bcaa4f1283fc796fab)|(744,260) N(94eca4d272ec46c898785ee754d6b502:Value)|(793,260)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="610 185 110 15" DataType="String" Id="163d77353f1e499ca600a255e5af4d4c" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>Cooking process</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<Wire Id="32e39766e96f40cca5ade9c79bbd15e2" Joints="N(163d77353f1e499ca600a255e5af4d4c:Out)|(720,190) N(5c4b46e0b9454ec7ba8d534937f5292b:Value)|(773,190)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="aa31540dead744699830495fe821c280" Joints="N(a3e28b2bb483486abc61a7ba58a83ceb:f405f0f05e6549bcaa4f1283fc796fab)|(744,245) h(5) v(-5) N(51b285290b194c99ac5ce10b15b74bad:Value)|(793,240)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="e0d592de41c04f94986e5ae4bea2f36a" Joints="N(74561882f6e4556af2aec439d276c6d:Value)|(160,265) h(26) v(-5) N(61ed5007f48543589edfc373f5f18327:f405f0f05e6549bcaa4f1283fc796fab)|(191,260)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="e995b23bcfa34ff386fa1462425a36bb" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="583cae2c5d4f453ab408e768799b0fa0" IsReadOnly="[bool]False" Label="[UIModel]2f0cbc3e91cc4fb4953cd43fcce5bc93" Left="[float]100" TabIndex="[int]0" Text="{DataItemBinding Id=e7ee64e9b1404b22ab4f8ab4d006b7d1}" Top="[float]116" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="91e95bb0c99b4d699b29c3f7c46237af" IsReadOnly="[bool]False" Label="[UIModel]ce623a2bf1ee44dfb3a2f9942acebf50" Left="[float]100" TabIndex="[int]1" Text="{DataItemBinding Id=505e93a72c0c4db598d42046df731cf2}" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="4fe7e0667f3d4bbfbf4367d85af6f7d5" Label="[UIModel]368f5a674c6d4d70b8d446f68026f0e8" Left="[float]340" TabIndex="[int]2" Top="[float]244" Value="{DataItemBinding Id=db931112f94a44b0acdad139c0d5896d}" Width="[float]176" xmlns="http://www.ni.com/PanelCommon">
+				<LED ContentVisibility="[Visibility]Collapsed" Height="[float]24" Id="7eec92066f8644eeb93d8ccb6d26f392" IsReadOnly="[bool]True" Label="[UIModel]ffa0b3d664b4bd1bd4aa9a9ac0fa0a7" Left="[float]8" Shape="[LEDShape]Round" Top="[float]24" TrueBackground="[SMSolidColorBrush]#ffff0000" Value="{ClusterBinding FieldName=status}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="ffa0b3d664b4bd1bd4aa9a9ac0fa0a7" LabelOwner="[UIModel]7eec92066f8644eeb93d8ccb6d26f392" Left="[float]8" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="7a913dd79bff4cd1b2888f78e48c5833" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]412f9add46d94204a946d0a7fc17c9da" Left="[float]64" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Visible" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="412f9add46d94204a946d0a7fc17c9da" LabelOwner="[UIModel]7a913dd79bff4cd1b2888f78e48c5833" Left="[float]64" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]96" Id="7b4db08a7b064fba8486867af0e0ebc8" IsReadOnly="[bool]True" Label="[UIModel]f494c7b018449eb99b4fb99e0829d79" Left="[float]8" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]160" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="f494c7b018449eb99b4fb99e0829d79" LabelOwner="[UIModel]7b4db08a7b064fba8486867af0e0ebc8" Left="[float]8" Text="[string]source" Top="[float]52" Width="[float]35" />
+			</Cluster>
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="7fdb1dbdace243f3a2eaddd0454f186b" IsReadOnly="[bool]True" Label="[UIModel]5e8ce84e906e45dbb3e4737b72941b02" Left="[float]340" TabIndex="[int]3" Text="{DataItemBinding Id=32b8fd8202774d3dbf98c6f3f1fb8dcd}" Top="[float]116" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ff81faca61a41e284b4806a320669eb" IsReadOnly="[bool]True" Label="[UIModel]d18b36e87dfb4c71a55d43a948d6740f" Left="[float]340" TabIndex="[int]4" Text="{DataItemBinding Id=340ea798ffb34aa68bcad9ed4566c81d}" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="de839f9e5ae841ab8a0605b843e8199d" Label="[UIModel]1ed41dba75f54e189b824a500a88f30f" Left="[float]100" TabIndex="[int]5" Top="[float]244" Value="{DataItemBinding Id=4fa49eea9bcb47e989b55b84dff0decb}" Width="[float]176" xmlns="http://www.ni.com/PanelCommon">
+				<LED ContentVisibility="[Visibility]Collapsed" Height="[float]24" Id="c5dcdc66dd84c3994512742cb8b545a" IsReadOnly="[bool]False" Label="[UIModel]ec995262505a4afea76e375fafc27d47" Left="[float]8" Shape="[LEDShape]Round" Top="[float]24" TrueBackground="[SMSolidColorBrush]#ffff0000" Value="{ClusterBinding FieldName=status}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="ec995262505a4afea76e375fafc27d47" LabelOwner="[UIModel]c5dcdc66dd84c3994512742cb8b545a" Left="[float]8" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="7b12e470c8af44a3b4f3fb3633ee312c" Interval="[int]1" IsReadOnly="[bool]False" Label="[UIModel]4af902a40bbe4ab98d444dc19737f23f" Left="[float]64" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Visible" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="4af902a40bbe4ab98d444dc19737f23f" LabelOwner="[UIModel]7b12e470c8af44a3b4f3fb3633ee312c" Left="[float]64" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]96" Id="ba5966a52a0645aaba71671af4681633" IsReadOnly="[bool]False" Label="[UIModel]b5de854a6c87436eb05aa6f6eec6e5ec" Left="[float]8" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]160" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="b5de854a6c87436eb05aa6f6eec6e5ec" LabelOwner="[UIModel]ba5966a52a0645aaba71671af4681633" Left="[float]8" Text="[string]source" Top="[float]52" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="2f0cbc3e91cc4fb4953cd43fcce5bc93" LabelOwner="[UIModel]583cae2c5d4f453ab408e768799b0fa0" Left="[float]100" Text="[string]Programm Id" Top="[float]96" Width="[float]70" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="ce623a2bf1ee44dfb3a2f9942acebf50" LabelOwner="[UIModel]91e95bb0c99b4d699b29c3f7c46237af" Left="[float]100" Text="[string]GUID" Top="[float]160" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="368f5a674c6d4d70b8d446f68026f0e8" LabelOwner="[UIModel]4fe7e0667f3d4bbfbf4367d85af6f7d5" Left="[float]340" Text="[string]Input" Top="[float]224" Width="[float]28" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="5e8ce84e906e45dbb3e4737b72941b02" LabelOwner="[UIModel]7fdb1dbdace243f3a2eaddd0454f186b" Left="[float]340" Text="[string]Process name" Top="[float]96" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="d18b36e87dfb4c71a55d43a948d6740f" LabelOwner="[UIModel]ff81faca61a41e284b4806a320669eb" Left="[float]340" Text="[string]Programme name" Top="[float]160" Width="[float]96" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="1ed41dba75f54e189b824a500a88f30f" LabelOwner="[UIModel]de839f9e5ae841ab8a0605b843e8199d" Left="[float]100" Text="[string]Output" Top="[float]224" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
+		</HtmlFrontPanel>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="String" Id="e7ee64e9b1404b22ab4f8ab4d006b7d1" Name="Programm Id" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="String" Id="32b8fd8202774d3dbf98c6f3f1fb8dcd" Name="Process name" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="Error" Id="4fa49eea9bcb47e989b55b84dff0decb" Name="Output" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="Error" Id="db931112f94a44b0acdad139c0d5896d" Name="Input" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="String" Id="505e93a72c0c4db598d42046df731cf2" Name="GUID" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="1" DataType="String" Id="340ea798ffb34aa68bcad9ed4566c81d" Name="Programme name" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
